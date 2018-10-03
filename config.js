@@ -1,7 +1,7 @@
 /*** USE THIS FILE TO SET OPTIONS ***/
 
 setParams({
-    graphFile : "miserables.gexf",
+    graphFile : "grafo_medicos.gexf",
         /*
             The GEXF file to show ! -- can be overriden by adding
             a hash to the document location, e.g. index.html#celegans.gexf
@@ -61,7 +61,7 @@ setParams({
             Show the edge arrows when the edge is directed
             this setting can't be changed from the User Interface
         */
-    language: false,
+    language: en,
         /*
             Set to an ISO language code to switch the interface to that language.
             Available languages are:
