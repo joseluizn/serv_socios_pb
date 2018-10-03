@@ -32,7 +32,7 @@ setParams({
             this setting can't be changed from the User Interface
         */
     minEdgeWidth : 1,
-    maxEdgeWidth : 50,
+    maxEdgeWidth : 30,
     textDisplayThreshold: 9,
     fontSizeFactor : 1,
     nodeSizeFactor : 1,
@@ -51,7 +51,7 @@ setParams({
             this setting can't be changed from the User Interface
         */
     showEdgeLabel : true,
-    sortNodeAttributes: true,
+    sortNodeAttributes: false,
         /*
             Alphabetically sort node attributes
          */
