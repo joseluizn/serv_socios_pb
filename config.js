@@ -1,12 +1,8 @@
 /*** USE THIS FILE TO SET OPTIONS ***/
 
-<<<<<<< HEAD
-GexfJS.setParams({
-    graphFile : "miserables.gexf",
-=======
 setParams({
     graphFile : "grafo_medicos.gexf",
->>>>>>> gh-pages
+
         /*
             The GEXF file to show ! -- can be overriden by adding
             a hash to the document location, e.g. index.html#celegans.gexf
