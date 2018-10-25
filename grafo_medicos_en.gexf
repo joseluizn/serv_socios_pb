@@ -6,12 +6,12 @@
   </meta>
   <graph defaultedgetype="directed" mode="static">
     <attributes class="node" mode="static">
-      <attribute id="n_cargos" title="n_roles" type="integer"></attribute>
-      <attribute id="total_recebido_empresas" title="amount_received_by_companies" type="float"></attribute>
-      <attribute id="multi_cargos" title="multi_roles" type="boolean"></attribute>
-      <attribute id="nome" title="Name" type="string"></attribute>
-      <attribute id="salario" title="Salary" type="float"></attribute>
-      <attribute id="cargo" title="Role" type="string"></attribute>
+      <attribute id="n_roles" title="n_roles" type="integer"></attribute>
+      <attribute id="amount_received_by_companies" title="amount_received_by_companies" type="float"></attribute>
+      <attribute id="multi_roles" title="multi_roles" type="boolean"></attribute>
+      <attribute id="name" title="Name" type="string"></attribute>
+      <attribute id="Salary" title="Salary" type="float"></attribute>
+      <attribute id="Role" title="Role" type="string"></attribute>
     </attributes>
     <attributes class="edge" mode="static">
       <attribute id="6" title="n_companies_originated_value" type="long"></attribute>
@@ -20,12 +20,12 @@
     <nodes>
       <node id="37531689472" label="MARIA DA CONCEICAO C MENDONCA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="4500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="MARIA DA CONCEICAO C MENDONCA"></attvalue>
-          <attvalue for="salario" value="1219.4852"></attvalue>
-          <attvalue for="cargo" value="FONOAUDIOLOGO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="4500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="MARIA DA CONCEICAO C MENDONCA"></attvalue>
+          <attvalue for="Salary" value="1219.4852"></attvalue>
+          <attvalue for="Role" value="FONOAUDIOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-696.76495" y="572.3502"></viz:position>
@@ -33,12 +33,12 @@
       </node>
       <node id="1065574401" label="ANDRE LOPES SOARES">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1329803.6"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ANDRE LOPES SOARES"></attvalue>
-          <attvalue for="salario" value="21129.81"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1329803.6"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ANDRE LOPES SOARES"></attvalue>
+          <attvalue for="Salary" value="21129.81"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-34.05471" y="-660.25"></viz:position>
@@ -46,7 +46,7 @@
       </node>
       <node id="601090" label="Fundo Municipal de Saúde de Itaporanga">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Itaporanga"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Itaporanga"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-816.28723" y="-370.8228"></viz:position>
@@ -54,7 +54,7 @@
       </node>
       <node id="201220" label="Prefeitura Municipal de Várzea">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Várzea"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Várzea"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="667.43317" y="1020.5249"></viz:position>
@@ -62,7 +62,7 @@
       </node>
       <node id="201221" label="Prefeitura Municipal de Vieirópolis">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Vieirópolis"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Vieirópolis"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="934.61993" y="-276.44168"></viz:position>
@@ -70,7 +70,7 @@
       </node>
       <node id="201222" label="Prefeitura Municipal de Vista Serrana">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Vista Serrana"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Vista Serrana"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="719.2565" y="770.3399"></viz:position>
@@ -78,12 +78,12 @@
       </node>
       <node id="14129809415" label="Marconi Lustosa Felix">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="100800.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="Marconi Lustosa Felix"></attvalue>
-          <attvalue for="salario" value="12166.685"></attvalue>
-          <attvalue for="cargo" value="MEDICO EFETIVO PSF"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="100800.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="Marconi Lustosa Felix"></attvalue>
+          <attvalue for="Salary" value="12166.685"></attvalue>
+          <attvalue for="Role" value="MEDICO EFETIVO PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1077.6536" y="412.42133"></viz:position>
@@ -91,7 +91,7 @@
       </node>
       <node id="602123" label="Fundo Municipal de Saúde de Monteiro">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Monteiro"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Monteiro"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="186.9736" y="87.10633"></viz:position>
@@ -99,12 +99,12 @@
       </node>
       <node id="44189478415" label="NORMA TANIA PEREIRA HERCULANO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="78510.74"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="NORMA TANIA PEREIRA HERCULANO"></attvalue>
-          <attvalue for="salario" value="1226.25"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO (EXCEPCIONAL)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="78510.74"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="NORMA TANIA PEREIRA HERCULANO"></attvalue>
+          <attvalue for="Salary" value="1226.25"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO (EXCEPCIONAL)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="717.25665" y="760.2924"></viz:position>
@@ -112,7 +112,7 @@
       </node>
       <node id="601110" label="Fundo Municipal de Saúde de Mamanguape">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Mamanguape"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Mamanguape"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-780.6705" y="932.87225"></viz:position>
@@ -120,12 +120,12 @@
       </node>
       <node id="3929212439" label="ALEXANDRE HENRIQUE DE SOUSA MELO BRANDÃO                    ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="159600.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ALEXANDRE HENRIQUE DE SOUSA MELO BRANDÃO                    "></attvalue>
-          <attvalue for="salario" value="4461.1245"></attvalue>
-          <attvalue for="cargo" value="MEDICO(A) PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="159600.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ALEXANDRE HENRIQUE DE SOUSA MELO BRANDÃO                    "></attvalue>
+          <attvalue for="Salary" value="4461.1245"></attvalue>
+          <attvalue for="Role" value="MEDICO(A) PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="184.28151" y="-720.9994"></viz:position>
@@ -133,7 +133,7 @@
       </node>
       <node id="602139" label="Fundo Municipal de Saúde de Pedras de Fogo">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Pedras de Fogo"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Pedras de Fogo"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1069.0997" y="-682.8905"></viz:position>
@@ -141,7 +141,7 @@
       </node>
       <node id="601116" label="Fundo Municipal de Saude de Mataraca">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saude de Mataraca"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saude de Mataraca"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="223.15352" y="-733.2621"></viz:position>
@@ -149,12 +149,12 @@
       </node>
       <node id="74550799315" label="RICARDO LUIS CAJAZEIRAS LIBERATO">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1832989.5"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="RICARDO LUIS CAJAZEIRAS LIBERATO"></attvalue>
-          <attvalue for="salario" value="8571.66"></attvalue>
-          <attvalue for="cargo" value="MÉDICO PSF"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1832989.5"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="RICARDO LUIS CAJAZEIRAS LIBERATO"></attvalue>
+          <attvalue for="Salary" value="8571.66"></attvalue>
+          <attvalue for="Role" value="MÉDICO PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-10.953407" y="15.882217"></viz:position>
@@ -162,12 +162,12 @@
       </node>
       <node id="10953043487" label="EDNA MARIA SOARES RIBEIRO PESSOA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="420894.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="EDNA MARIA SOARES RIBEIRO PESSOA"></attvalue>
-          <attvalue for="salario" value="4069.46"></attvalue>
-          <attvalue for="cargo" value="MEDICO(A) - FUNASA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="420894.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="EDNA MARIA SOARES RIBEIRO PESSOA"></attvalue>
+          <attvalue for="Salary" value="4069.46"></attvalue>
+          <attvalue for="Role" value="MEDICO(A) - FUNASA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-309.77734" y="492.66266"></viz:position>
@@ -175,7 +175,7 @@
       </node>
       <node id="201178" label="Prefeitura Municipal de São Bento">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São Bento"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São Bento"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-870.4728" y="-931.78937"></viz:position>
@@ -183,7 +183,7 @@
       </node>
       <node id="201136" label="Prefeitura Municipal de Paulista">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Paulista"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Paulista"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="0.95348597" y="4.1482196"></viz:position>
@@ -191,12 +191,12 @@
       </node>
       <node id="5321819483" label="GUSTAVO LIMA NOBREGA DA SILVA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="835100.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="GUSTAVO LIMA NOBREGA DA SILVA"></attvalue>
-          <attvalue for="salario" value="6910.2188"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="835100.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="GUSTAVO LIMA NOBREGA DA SILVA"></attvalue>
+          <attvalue for="Salary" value="6910.2188"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="144.54883" y="-88.92783"></viz:position>
@@ -204,12 +204,12 @@
       </node>
       <node id="25068776491" label="ANA DULCE DE SOUZA LIMA RODRIGUES">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="7844700.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA DULCE DE SOUZA LIMA RODRIGUES"></attvalue>
-          <attvalue for="salario" value="5639.2007"></attvalue>
-          <attvalue for="cargo" value="MEDICO II"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="7844700.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA DULCE DE SOUZA LIMA RODRIGUES"></attvalue>
+          <attvalue for="Salary" value="5639.2007"></attvalue>
+          <attvalue for="Role" value="MEDICO II"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="86.353905" y="295.014"></viz:position>
@@ -217,12 +217,12 @@
       </node>
       <node id="5480722484" label="EMMANUELLE LOPES CLAUDINO NEVES">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1279290.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="EMMANUELLE LOPES CLAUDINO NEVES"></attvalue>
-          <attvalue for="salario" value="12321.52"></attvalue>
-          <attvalue for="cargo" value="MEDICO (A) - CONTRATO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1279290.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="EMMANUELLE LOPES CLAUDINO NEVES"></attvalue>
+          <attvalue for="Salary" value="12321.52"></attvalue>
+          <attvalue for="Role" value="MEDICO (A) - CONTRATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-779.3542" y="-354.5364"></viz:position>
@@ -230,7 +230,7 @@
       </node>
       <node id="601143" label="Fundo Municipal de Saúde de Pilar">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Pilar"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Pilar"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-695.03796" y="-648.504"></viz:position>
@@ -238,12 +238,12 @@
       </node>
       <node id="67457908404" label="CLAUDIA BARROS GONÇALVES CUNHA">
         <attvalues>
-          <attvalue for="n_cargos" value="9"></attvalue>
-          <attvalue for="total_recebido_empresas" value="748670.6"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="CLAUDIA BARROS GONÇALVES CUNHA"></attvalue>
-          <attvalue for="salario" value="10356.266"></attvalue>
-          <attvalue for="cargo" value="MEDICO NEUROLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="9"></attvalue>
+          <attvalue for="amount_received_by_companies" value="748670.6"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="CLAUDIA BARROS GONÇALVES CUNHA"></attvalue>
+          <attvalue for="Salary" value="10356.266"></attvalue>
+          <attvalue for="Role" value="MEDICO NEUROLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="34.044525" y="-646.1008"></viz:position>
@@ -251,7 +251,7 @@
       </node>
       <node id="602171" label="Fundo Municipal de Saúde de Santa Rita">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Santa Rita"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Santa Rita"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="941.7925" y="156.7318"></viz:position>
@@ -259,12 +259,12 @@
       </node>
       <node id="44073275453" label="Alan Ricardo Dutra do Nascimento">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="54986.44"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="Alan Ricardo Dutra do Nascimento"></attvalue>
-          <attvalue for="salario" value="2333.2617"></attvalue>
-          <attvalue for="cargo" value="MEDICO UROLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="54986.44"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="Alan Ricardo Dutra do Nascimento"></attvalue>
+          <attvalue for="Salary" value="2333.2617"></attvalue>
+          <attvalue for="Role" value="MEDICO UROLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1080.0402" y="-675.75665"></viz:position>
@@ -272,12 +272,12 @@
       </node>
       <node id="2508282430" label="PEDRO GONCALVES DE ALMEIDA JUNIOR                           ">
         <attvalues>
-          <attvalue for="n_cargos" value="7"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1158201.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="PEDRO GONCALVES DE ALMEIDA JUNIOR                           "></attvalue>
-          <attvalue for="salario" value="28381.52"></attvalue>
-          <attvalue for="cargo" value="MEDICO                                            "></attvalue>
+          <attvalue for="n_roles" value="7"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1158201.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="PEDRO GONCALVES DE ALMEIDA JUNIOR                           "></attvalue>
+          <attvalue for="Salary" value="28381.52"></attvalue>
+          <attvalue for="Role" value="MEDICO                                            "></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-2.1996877" y="-41.76305"></viz:position>
@@ -285,7 +285,7 @@
       </node>
       <node id="601151" label="Fundo Municipal de Saúde de Pombal">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Pombal"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Pombal"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-34.654522" y="-34.08016"></viz:position>
@@ -293,12 +293,12 @@
       </node>
       <node id="6240293440" label="Carla Gomes Vieira">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="140240.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="Carla Gomes Vieira"></attvalue>
-          <attvalue for="salario" value="1483.5925"></attvalue>
-          <attvalue for="cargo" value="Psicologa"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="140240.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="Carla Gomes Vieira"></attvalue>
+          <attvalue for="Salary" value="1483.5925"></attvalue>
+          <attvalue for="Role" value="Psicologa"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-18.317036" y="55.979008"></viz:position>
@@ -306,12 +306,12 @@
       </node>
       <node id="8906114400" label="EUGENIO HENRIQUE BARBOSA">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="112440.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="EUGENIO HENRIQUE BARBOSA"></attvalue>
-          <attvalue for="salario" value="6681.1"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="112440.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="EUGENIO HENRIQUE BARBOSA"></attvalue>
+          <attvalue for="Salary" value="6681.1"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="670.9753" y="359.95456"></viz:position>
@@ -319,12 +319,12 @@
       </node>
       <node id="2516389442" label="MIGUEL NEVES DA SILVA NETO">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="175000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="MIGUEL NEVES DA SILVA NETO"></attvalue>
-          <attvalue for="salario" value="9094.735"></attvalue>
-          <attvalue for="cargo" value="MEDICO - CONTRATO"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="175000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="MIGUEL NEVES DA SILVA NETO"></attvalue>
+          <attvalue for="Salary" value="9094.735"></attvalue>
+          <attvalue for="Role" value="MEDICO - CONTRATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-802.1543" y="-364.5815"></viz:position>
@@ -332,12 +332,12 @@
       </node>
       <node id="67269540420" label="JANE CRISTINA MEDEIROS">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="130000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JANE CRISTINA MEDEIROS"></attvalue>
-          <attvalue for="salario" value="3299.35"></attvalue>
-          <attvalue for="cargo" value="MEDICO PEDIATRA (CONTRATO)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="130000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JANE CRISTINA MEDEIROS"></attvalue>
+          <attvalue for="Salary" value="3299.35"></attvalue>
+          <attvalue for="Role" value="MEDICO PEDIATRA (CONTRATO)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-875.3175" y="-942.2633"></viz:position>
@@ -345,7 +345,7 @@
       </node>
       <node id="201057" label="Prefeitura Municipal de Catolé do Rocha">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Catolé do Rocha"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Catolé do Rocha"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="26.002491" y="-0.4815981"></viz:position>
@@ -353,7 +353,7 @@
       </node>
       <node id="601163" label="Fundo Municipal de Saúde de Rio Tinto">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Rio Tinto"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Rio Tinto"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-17.55886" y="-724.1358"></viz:position>
@@ -361,7 +361,7 @@
       </node>
       <node id="601165" label="Fundo Municipal de Saúde de Salgado de São Félix">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Salgado de São Félix"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Salgado de São Félix"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="22.493357" y="-709.2846"></viz:position>
@@ -369,12 +369,12 @@
       </node>
       <node id="1224227409" label="GAUDENCIO MENDES DE SOUSA FILHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="90000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="GAUDENCIO MENDES DE SOUSA FILHO"></attvalue>
-          <attvalue for="salario" value="9221.646"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="90000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="GAUDENCIO MENDES DE SOUSA FILHO"></attvalue>
+          <attvalue for="Salary" value="9221.646"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="97.58239" y="-28.166353"></viz:position>
@@ -382,12 +382,12 @@
       </node>
       <node id="13266705491" label="KLICIO LUIZ RESENDE BRAYNER">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="43200.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="KLICIO LUIZ RESENDE BRAYNER"></attvalue>
-          <attvalue for="salario" value="3410.413"></attvalue>
-          <attvalue for="cargo" value="MEDICO-CTR"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="43200.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="KLICIO LUIZ RESENDE BRAYNER"></attvalue>
+          <attvalue for="Salary" value="3410.413"></attvalue>
+          <attvalue for="Role" value="MEDICO-CTR"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="683.25885" y="337.19528"></viz:position>
@@ -395,12 +395,12 @@
       </node>
       <node id="13325027415" label="KLEBER TADEU ALCOFORADO COSTA                               ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="159600.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="KLEBER TADEU ALCOFORADO COSTA                               "></attvalue>
-          <attvalue for="salario" value="2860.6882"></attvalue>
-          <attvalue for="cargo" value="MEDICO(A) PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="159600.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="KLEBER TADEU ALCOFORADO COSTA                               "></attvalue>
+          <attvalue for="Salary" value="2860.6882"></attvalue>
+          <attvalue for="Role" value="MEDICO(A) PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="181.14906" y="-704.0318"></viz:position>
@@ -408,12 +408,12 @@
       </node>
       <node id="6768911449" label="ANTONIO DA SILVA RAMOS">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1940587.5"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANTONIO DA SILVA RAMOS"></attvalue>
-          <attvalue for="salario" value="239.79428"></attvalue>
-          <attvalue for="cargo" value="MEDICO 20H"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1940587.5"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANTONIO DA SILVA RAMOS"></attvalue>
+          <attvalue for="Salary" value="239.79428"></attvalue>
+          <attvalue for="Role" value="MEDICO 20H"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-65.51471" y="1079.3121"></viz:position>
@@ -421,12 +421,12 @@
       </node>
       <node id="26243385434" label="EDMILSON MIRANDA RIBEIRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="83375.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="EDMILSON MIRANDA RIBEIRO"></attvalue>
-          <attvalue for="salario" value="14172.028"></attvalue>
-          <attvalue for="cargo" value="MEDICO PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="83375.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="EDMILSON MIRANDA RIBEIRO"></attvalue>
+          <attvalue for="Salary" value="14172.028"></attvalue>
+          <attvalue for="Role" value="MEDICO PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="123.55349" y="206.4489"></viz:position>
@@ -434,12 +434,12 @@
       </node>
       <node id="40524795487" label="MARCIO ROSSANI DE F BRITO">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="8288850.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="MARCIO ROSSANI DE F BRITO"></attvalue>
-          <attvalue for="salario" value="5619.8013"></attvalue>
-          <attvalue for="cargo" value="MEDICO ANESTESIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="8288850.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="MARCIO ROSSANI DE F BRITO"></attvalue>
+          <attvalue for="Salary" value="5619.8013"></attvalue>
+          <attvalue for="Role" value="MEDICO ANESTESIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="89.399925" y="261.17133"></viz:position>
@@ -447,12 +447,12 @@
       </node>
       <node id="1287632483" label="REGINA COELLI DE MELO ARAUJO">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="91169.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="REGINA COELLI DE MELO ARAUJO"></attvalue>
-          <attvalue for="salario" value="2354.9"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO - CAPS"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="91169.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="REGINA COELLI DE MELO ARAUJO"></attvalue>
+          <attvalue for="Salary" value="2354.9"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO - CAPS"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-686.4573" y="-641.9052"></viz:position>
@@ -460,12 +460,12 @@
       </node>
       <node id="5051600484" label="LIVIA RODRIGUES DE SOUSA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="26423.75"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="LIVIA RODRIGUES DE SOUSA"></attvalue>
-          <attvalue for="salario" value="1226.25"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGA- CRAS"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="26423.75"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="LIVIA RODRIGUES DE SOUSA"></attvalue>
+          <attvalue for="Salary" value="1226.25"></attvalue>
+          <attvalue for="Role" value="PSICOLOGA- CRAS"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="991.58466" y="480.26373"></viz:position>
@@ -473,12 +473,12 @@
       </node>
       <node id="7679800421" label="KELSEN LIMA COSTA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="77540.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="KELSEN LIMA COSTA"></attvalue>
-          <attvalue for="salario" value="1026.0"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="77540.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="KELSEN LIMA COSTA"></attvalue>
+          <attvalue for="Salary" value="1026.0"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1264.6663" y="-299.6896"></viz:position>
@@ -486,12 +486,12 @@
       </node>
       <node id="4002512487" label="LEVI BRONZEADO DOS SANTOS">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="159600.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="LEVI BRONZEADO DOS SANTOS"></attvalue>
-          <attvalue for="salario" value="3602.89"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="159600.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="LEVI BRONZEADO DOS SANTOS"></attvalue>
+          <attvalue for="Salary" value="3602.89"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="172.35876" y="-735.04456"></viz:position>
@@ -499,12 +499,12 @@
       </node>
       <node id="18156665449" label="MARIA DAS NEVES DE PAULA MAIA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="2814000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="MARIA DAS NEVES DE PAULA MAIA"></attvalue>
-          <attvalue for="salario" value="115.05"></attvalue>
-          <attvalue for="cargo" value="MEDICO 20H"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="2814000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="MARIA DAS NEVES DE PAULA MAIA"></attvalue>
+          <attvalue for="Salary" value="115.05"></attvalue>
+          <attvalue for="Role" value="MEDICO 20H"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-46.57661" y="1101.1328"></viz:position>
@@ -512,12 +512,12 @@
       </node>
       <node id="46775846487" label="SOLANGE M DE ARAUJO L CAVALCANTI">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="2153780.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="SOLANGE M DE ARAUJO L CAVALCANTI"></attvalue>
-          <attvalue for="salario" value="3954.8079"></attvalue>
-          <attvalue for="cargo" value="MEDICO CLINICO GERAL"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="2153780.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="SOLANGE M DE ARAUJO L CAVALCANTI"></attvalue>
+          <attvalue for="Salary" value="3954.8079"></attvalue>
+          <attvalue for="Role" value="MEDICO CLINICO GERAL"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-775.266" y="924.13257"></viz:position>
@@ -525,12 +525,12 @@
       </node>
       <node id="14132176487" label="Maria de Fatima do Egito Andrade de Almeida">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="362632.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="Maria de Fatima do Egito Andrade de Almeida"></attvalue>
-          <attvalue for="salario" value="1183.0592"></attvalue>
-          <attvalue for="cargo" value="MEDICO PEDIATRA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="362632.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="Maria de Fatima do Egito Andrade de Almeida"></attvalue>
+          <attvalue for="Salary" value="1183.0592"></attvalue>
+          <attvalue for="Role" value="MEDICO PEDIATRA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-911.0593" y="72.80984"></viz:position>
@@ -538,7 +538,7 @@
       </node>
       <node id="601200" label="Fundo Municipal de Saúde de Sapé">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Sapé"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Sapé"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1043.97" y="-676.86273"></viz:position>
@@ -546,12 +546,12 @@
       </node>
       <node id="2872517480" label="JULIANO BATISTA DA SILVA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="92880.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JULIANO BATISTA DA SILVA"></attvalue>
-          <attvalue for="salario" value="8326.683"></attvalue>
-          <attvalue for="cargo" value="MEDICO NEUROLOGISTA (CONTRATADO)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="92880.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JULIANO BATISTA DA SILVA"></attvalue>
+          <attvalue for="Salary" value="8326.683"></attvalue>
+          <attvalue for="Role" value="MEDICO NEUROLOGISTA (CONTRATADO)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="35.530045" y="6.4798923"></viz:position>
@@ -559,12 +559,12 @@
       </node>
       <node id="50244531315" label="JOSE ADAILSON DA SILVA FERREIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="65721.5"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JOSE ADAILSON DA SILVA FERREIRA"></attvalue>
-          <attvalue for="salario" value="3067.088"></attvalue>
-          <attvalue for="cargo" value="MEDICO CARDIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="65721.5"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JOSE ADAILSON DA SILVA FERREIRA"></attvalue>
+          <attvalue for="Salary" value="3067.088"></attvalue>
+          <attvalue for="Role" value="MEDICO CARDIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="74.65293" y="205.58325"></viz:position>
@@ -572,12 +572,12 @@
       </node>
       <node id="26332302453" label="RITA LEITE FERREIRA GUIMARAES">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="93000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="RITA LEITE FERREIRA GUIMARAES"></attvalue>
-          <attvalue for="salario" value="2752.82"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="93000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="RITA LEITE FERREIRA GUIMARAES"></attvalue>
+          <attvalue for="Salary" value="2752.82"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-226.20567" y="916.458"></viz:position>
@@ -585,12 +585,12 @@
       </node>
       <node id="50925881449" label="ANA PAULA PADILHA DE ALMEIDA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="2800.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA PAULA PADILHA DE ALMEIDA"></attvalue>
-          <attvalue for="salario" value="2667.111"></attvalue>
-          <attvalue for="cargo" value="FONOAUDIOLOGO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="2800.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA PAULA PADILHA DE ALMEIDA"></attvalue>
+          <attvalue for="Salary" value="2667.111"></attvalue>
+          <attvalue for="Role" value="FONOAUDIOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-47.403522" y="-654.2833"></viz:position>
@@ -598,12 +598,12 @@
       </node>
       <node id="88570380410" label="ANA KALINA G. P. MARQUES MELO">
         <attvalues>
-          <attvalue for="n_cargos" value="5"></attvalue>
-          <attvalue for="total_recebido_empresas" value="357300.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ANA KALINA G. P. MARQUES MELO"></attvalue>
-          <attvalue for="salario" value="2829.073"></attvalue>
-          <attvalue for="cargo" value="MEDICO EM RADIOLOGIA E DIAGNOSTICO POR IMAGEM"></attvalue>
+          <attvalue for="n_roles" value="5"></attvalue>
+          <attvalue for="amount_received_by_companies" value="357300.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ANA KALINA G. P. MARQUES MELO"></attvalue>
+          <attvalue for="Salary" value="2829.073"></attvalue>
+          <attvalue for="Role" value="MEDICO EM RADIOLOGIA E DIAGNOSTICO POR IMAGEM"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="214.1251" y="-741.2818"></viz:position>
@@ -611,12 +611,12 @@
       </node>
       <node id="2537850491" label="ARMANDO ABILIO VIEIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="15600.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ARMANDO ABILIO VIEIRA"></attvalue>
-          <attvalue for="salario" value="10438.08"></attvalue>
-          <attvalue for="cargo" value="MEDICO PLANTONISTA CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="15600.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ARMANDO ABILIO VIEIRA"></attvalue>
+          <attvalue for="Salary" value="10438.08"></attvalue>
+          <attvalue for="Role" value="MEDICO PLANTONISTA CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="87.19164" y="190.12381"></viz:position>
@@ -624,12 +624,12 @@
       </node>
       <node id="52644472415" label="DOMINGOS SAVIO ANTUNES ROCHA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="14310.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="DOMINGOS SAVIO ANTUNES ROCHA"></attvalue>
-          <attvalue for="salario" value="8521.707"></attvalue>
-          <attvalue for="cargo" value="MEDICO - CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="14310.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="DOMINGOS SAVIO ANTUNES ROCHA"></attvalue>
+          <attvalue for="Salary" value="8521.707"></attvalue>
+          <attvalue for="Role" value="MEDICO - CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="297.89227" y="811.1582"></viz:position>
@@ -637,7 +637,7 @@
       </node>
       <node id="601218" label="Fundo Municipal de Saude de Uirauna">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saude de Uirauna"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saude de Uirauna"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-230.55972" y="-13.294405"></viz:position>
@@ -645,12 +645,12 @@
       </node>
       <node id="39521761415" label="BENEDITO SAVIO DURAND GOMES">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="65721.5"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="BENEDITO SAVIO DURAND GOMES"></attvalue>
-          <attvalue for="salario" value="3118.433"></attvalue>
-          <attvalue for="cargo" value="MEDICO CARDIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="65721.5"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="BENEDITO SAVIO DURAND GOMES"></attvalue>
+          <attvalue for="Salary" value="3118.433"></attvalue>
+          <attvalue for="Role" value="MEDICO CARDIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="111.228004" y="190.65936"></viz:position>
@@ -658,12 +658,12 @@
       </node>
       <node id="13224395400" label="LUIZ ALBERTO DE OLIVEIRA BRITO">
         <attvalues>
-          <attvalue for="n_cargos" value="6"></attvalue>
-          <attvalue for="total_recebido_empresas" value="448000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="LUIZ ALBERTO DE OLIVEIRA BRITO"></attvalue>
-          <attvalue for="salario" value="4978.888"></attvalue>
-          <attvalue for="cargo" value="MEDICO DERMATOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="6"></attvalue>
+          <attvalue for="amount_received_by_companies" value="448000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="LUIZ ALBERTO DE OLIVEIRA BRITO"></attvalue>
+          <attvalue for="Salary" value="4978.888"></attvalue>
+          <attvalue for="Role" value="MEDICO DERMATOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="119.70315" y="-705.6989"></viz:position>
@@ -671,12 +671,12 @@
       </node>
       <node id="13146700425" label="IVANILDO FRANCO DA SILVA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="43200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="IVANILDO FRANCO DA SILVA"></attvalue>
-          <attvalue for="salario" value="3363.3994"></attvalue>
-          <attvalue for="cargo" value="MEDICO CARDIOLOGISTA-CTR"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="43200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="IVANILDO FRANCO DA SILVA"></attvalue>
+          <attvalue for="Salary" value="3363.3994"></attvalue>
+          <attvalue for="Role" value="MEDICO CARDIOLOGISTA-CTR"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="663.4246" y="335.20374"></viz:position>
@@ -684,12 +684,12 @@
       </node>
       <node id="67385214487" label="ALEKSANDER DE AZEVEDO DANTAS">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="130000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ALEKSANDER DE AZEVEDO DANTAS"></attvalue>
-          <attvalue for="salario" value="7205.78"></attvalue>
-          <attvalue for="cargo" value="MEDICO CARDIOLOGISTA (CONTRATO)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="130000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ALEKSANDER DE AZEVEDO DANTAS"></attvalue>
+          <attvalue for="Salary" value="7205.78"></attvalue>
+          <attvalue for="Role" value="MEDICO CARDIOLOGISTA (CONTRATO)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-865.5702" y="-921.3496"></viz:position>
@@ -697,12 +697,12 @@
       </node>
       <node id="5143480469" label="DANIEL DE OLIVEIRA FERREIRA                                 ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="91200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="DANIEL DE OLIVEIRA FERREIRA                                 "></attvalue>
-          <attvalue for="salario" value="4619.2"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="91200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="DANIEL DE OLIVEIRA FERREIRA                                 "></attvalue>
+          <attvalue for="Salary" value="4619.2"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="139.3547" y="-54.398952"></viz:position>
@@ -710,12 +710,12 @@
       </node>
       <node id="5379341462" label="EMANUELA DE FREITAS NOGUEIRA                                ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="73500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="EMANUELA DE FREITAS NOGUEIRA                                "></attvalue>
-          <attvalue for="salario" value="9261.556"></attvalue>
-          <attvalue for="cargo" value="Medico contratado"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="73500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="EMANUELA DE FREITAS NOGUEIRA                                "></attvalue>
+          <attvalue for="Salary" value="9261.556"></attvalue>
+          <attvalue for="Role" value="Medico contratado"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-240.92636" y="-7.1667695"></viz:position>
@@ -723,12 +723,12 @@
       </node>
       <node id="6681719449" label="Ednaldo Dantas de Almeida">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="100800.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="Ednaldo Dantas de Almeida"></attvalue>
-          <attvalue for="salario" value="11256.467"></attvalue>
-          <attvalue for="cargo" value="MEDICO EFETIVO PSF"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="100800.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="Ednaldo Dantas de Almeida"></attvalue>
+          <attvalue for="Salary" value="11256.467"></attvalue>
+          <attvalue for="Role" value="MEDICO EFETIVO PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1052.9873" y="393.69232"></viz:position>
@@ -736,12 +736,12 @@
       </node>
       <node id="76891917468" label="RICARDO LOURENÇO COELHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="424739.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="RICARDO LOURENÇO COELHO"></attvalue>
-          <attvalue for="salario" value="3554.1716"></attvalue>
-          <attvalue for="cargo" value="MEDICO OFTALMOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="424739.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="RICARDO LOURENÇO COELHO"></attvalue>
+          <attvalue for="Salary" value="3554.1716"></attvalue>
+          <attvalue for="Role" value="MEDICO OFTALMOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="310.368" y="1186.7668"></viz:position>
@@ -749,12 +749,12 @@
       </node>
       <node id="1848930461" label="FÁBIO NÓBREGA GADELHA DE QUEIROGA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="3900.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="FÁBIO NÓBREGA GADELHA DE QUEIROGA"></attvalue>
-          <attvalue for="salario" value="4010.732"></attvalue>
-          <attvalue for="cargo" value="TEC EQUIP MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="3900.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="FÁBIO NÓBREGA GADELHA DE QUEIROGA"></attvalue>
+          <attvalue for="Salary" value="4010.732"></attvalue>
+          <attvalue for="Role" value="TEC EQUIP MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1048.8256" y="423.73706"></viz:position>
@@ -762,12 +762,12 @@
       </node>
       <node id="6534455471" label="SOLON LIRA DE VASCONCELOS NETO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="43000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="SOLON LIRA DE VASCONCELOS NETO"></attvalue>
-          <attvalue for="salario" value="4512.841"></attvalue>
-          <attvalue for="cargo" value="MEDICO SAUDE DO TRABALHADOR"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="43000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="SOLON LIRA DE VASCONCELOS NETO"></attvalue>
+          <attvalue for="Salary" value="4512.841"></attvalue>
+          <attvalue for="Role" value="MEDICO SAUDE DO TRABALHADOR"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-342.2653" y="679.3489"></viz:position>
@@ -775,12 +775,12 @@
       </node>
       <node id="38013452468" label="RODOVAL BEZERRA CABRAL">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="3450.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="RODOVAL BEZERRA CABRAL"></attvalue>
-          <attvalue for="salario" value="4930.053"></attvalue>
-          <attvalue for="cargo" value="MEDICO II"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="3450.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="RODOVAL BEZERRA CABRAL"></attvalue>
+          <attvalue for="Salary" value="4930.053"></attvalue>
+          <attvalue for="Role" value="MEDICO II"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="97.50302" y="305.90253"></viz:position>
@@ -788,12 +788,12 @@
       </node>
       <node id="1864545461" label="PATRICIO EDUARDO ABRANTES SARMENTO">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="560190.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="PATRICIO EDUARDO ABRANTES SARMENTO"></attvalue>
-          <attvalue for="salario" value="5379.56"></attvalue>
-          <attvalue for="cargo" value="MéDICO ENDOCRINOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="560190.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="PATRICIO EDUARDO ABRANTES SARMENTO"></attvalue>
+          <attvalue for="Salary" value="5379.56"></attvalue>
+          <attvalue for="Role" value="MéDICO ENDOCRINOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-101.9413" y="-39.540977"></viz:position>
@@ -801,12 +801,12 @@
       </node>
       <node id="2229919415" label="FRANCISCO ALVES DE OLIVEIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="8"></attvalue>
-          <attvalue for="total_recebido_empresas" value="653662.44"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="FRANCISCO ALVES DE OLIVEIRA"></attvalue>
-          <attvalue for="salario" value="9267.611"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE                              "></attvalue>
+          <attvalue for="n_roles" value="8"></attvalue>
+          <attvalue for="amount_received_by_companies" value="653662.44"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="FRANCISCO ALVES DE OLIVEIRA"></attvalue>
+          <attvalue for="Salary" value="9267.611"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE                              "></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-219.26997" y="-69.77061"></viz:position>
@@ -814,12 +814,12 @@
       </node>
       <node id="75221705400" label="MARIA GRECE FERNADES                                        ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="566250.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="MARIA GRECE FERNADES                                        "></attvalue>
-          <attvalue for="salario" value="5528.473"></attvalue>
-          <attvalue for="cargo" value="MEDICO                                            "></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="566250.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="MARIA GRECE FERNADES                                        "></attvalue>
+          <attvalue for="Salary" value="5528.473"></attvalue>
+          <attvalue for="Role" value="MEDICO                                            "></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-44.044483" y="-51.418697"></viz:position>
@@ -827,12 +827,12 @@
       </node>
       <node id="2190582458" label="RIVALDO FERNANDES FILHO">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="241000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="RIVALDO FERNANDES FILHO"></attvalue>
-          <attvalue for="salario" value="4615.1143"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="241000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="RIVALDO FERNANDES FILHO"></attvalue>
+          <attvalue for="Salary" value="4615.1143"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="42.93566" y="-34.737736"></viz:position>
@@ -840,12 +840,12 @@
       </node>
       <node id="21958815420" label="Jucelio Pereira Moura">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="100800.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="Jucelio Pereira Moura"></attvalue>
-          <attvalue for="salario" value="11861.783"></attvalue>
-          <attvalue for="cargo" value="MEDICO EFETIVO PSF"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="100800.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="Jucelio Pereira Moura"></attvalue>
+          <attvalue for="Salary" value="11861.783"></attvalue>
+          <attvalue for="Role" value="MEDICO EFETIVO PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1042.3324" y="407.50253"></viz:position>
@@ -853,12 +853,12 @@
       </node>
       <node id="4558304447" label="JUSCELIO TRAJANO DE SOUSA FILHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="3049367.5"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JUSCELIO TRAJANO DE SOUSA FILHO"></attvalue>
-          <attvalue for="salario" value="6478.76"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="3049367.5"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JUSCELIO TRAJANO DE SOUSA FILHO"></attvalue>
+          <attvalue for="Salary" value="6478.76"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-201.53632" y="-45.07191"></viz:position>
@@ -866,7 +866,7 @@
       </node>
       <node id="201211" label="Prefeitura Municipal de Sousa">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Sousa"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Sousa"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-231.67363" y="-77.61243"></viz:position>
@@ -874,12 +874,12 @@
       </node>
       <node id="2394782404" label="ESTANISLAU BARBOSA DE LUCENA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="40000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ESTANISLAU BARBOSA DE LUCENA"></attvalue>
-          <attvalue for="salario" value="5150.9243"></attvalue>
-          <attvalue for="cargo" value="MEDICO SANITARISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="40000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ESTANISLAU BARBOSA DE LUCENA"></attvalue>
+          <attvalue for="Salary" value="5150.9243"></attvalue>
+          <attvalue for="Role" value="MEDICO SANITARISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-38.666542" y="-745.56506"></viz:position>
@@ -887,12 +887,12 @@
       </node>
       <node id="23781920453" label="JOSE PROTASIO VIEIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="8288850.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="JOSE PROTASIO VIEIRA"></attvalue>
-          <attvalue for="salario" value="5948.0737"></attvalue>
-          <attvalue for="cargo" value="MEDICO ANESTESIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="8288850.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="JOSE PROTASIO VIEIRA"></attvalue>
+          <attvalue for="Salary" value="5948.0737"></attvalue>
+          <attvalue for="Role" value="MEDICO ANESTESIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="101.09083" y="250.7058"></viz:position>
@@ -900,12 +900,12 @@
       </node>
       <node id="11391286472" label="MARICELIA BATISTA RODRIGUES">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="417200.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="MARICELIA BATISTA RODRIGUES"></attvalue>
-          <attvalue for="salario" value="3900.0"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="417200.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="MARICELIA BATISTA RODRIGUES"></attvalue>
+          <attvalue for="Salary" value="3900.0"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-6.1463923" y="-584.3832"></viz:position>
@@ -913,12 +913,12 @@
       </node>
       <node id="6986720467" label="Teodomiro Ramalho Rangel">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="3361658.5"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="Teodomiro Ramalho Rangel"></attvalue>
-          <attvalue for="salario" value="5203.39"></attvalue>
-          <attvalue for="cargo" value="Medico"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="3361658.5"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="Teodomiro Ramalho Rangel"></attvalue>
+          <attvalue for="Salary" value="5203.39"></attvalue>
+          <attvalue for="Role" value="Medico"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-338.1203" y="938.03076"></viz:position>
@@ -926,12 +926,12 @@
       </node>
       <node id="8277130457" label="Felipe Serrano Farias">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1.1221407E7"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="Felipe Serrano Farias"></attvalue>
-          <attvalue for="salario" value="10570.274"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1.1221407E7"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="Felipe Serrano Farias"></attvalue>
+          <attvalue for="Salary" value="10570.274"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1073.3519" y="-695.305"></viz:position>
@@ -939,12 +939,12 @@
       </node>
       <node id="41515501434" label="MARIA DO SOCORRO FERREIRA MORENO">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="34500.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="MARIA DO SOCORRO FERREIRA MORENO"></attvalue>
-          <attvalue for="salario" value="2310.9153"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="34500.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="MARIA DO SOCORRO FERREIRA MORENO"></attvalue>
+          <attvalue for="Salary" value="2310.9153"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="223.43405" y="90.41511"></viz:position>
@@ -952,12 +952,12 @@
       </node>
       <node id="39673588449" label="Marcus Aurelio Guedes Farias">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1.1703975E7"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="Marcus Aurelio Guedes Farias"></attvalue>
-          <attvalue for="salario" value="3330.0"></attvalue>
-          <attvalue for="cargo" value="MEDICO ULTRASONOGRAFISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1.1703975E7"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="Marcus Aurelio Guedes Farias"></attvalue>
+          <attvalue for="Salary" value="3330.0"></attvalue>
+          <attvalue for="Role" value="MEDICO ULTRASONOGRAFISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1054.6685" y="-679.3077"></viz:position>
@@ -965,12 +965,12 @@
       </node>
       <node id="6180146403" label="DARIO FIRMINO QUIRINO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="126000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="DARIO FIRMINO QUIRINO"></attvalue>
-          <attvalue for="salario" value="9546.47"></attvalue>
-          <attvalue for="cargo" value="MEDICO PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="126000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="DARIO FIRMINO QUIRINO"></attvalue>
+          <attvalue for="Salary" value="9546.47"></attvalue>
+          <attvalue for="Role" value="MEDICO PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-888.81274" y="-102.29836"></viz:position>
@@ -978,12 +978,12 @@
       </node>
       <node id="2860704485" label="FABRICIO DA NOBREGA CARVALHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="28800.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="FABRICIO DA NOBREGA CARVALHO"></attvalue>
-          <attvalue for="salario" value="6775.745"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="28800.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="FABRICIO DA NOBREGA CARVALHO"></attvalue>
+          <attvalue for="Salary" value="6775.745"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="134.6574" y="-38.7141"></viz:position>
@@ -991,12 +991,12 @@
       </node>
       <node id="2989364455" label="FLAVIANA PALMEIRA DE ARAUJO GADELHA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="6529850.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="FLAVIANA PALMEIRA DE ARAUJO GADELHA"></attvalue>
-          <attvalue for="salario" value="4549.935"></attvalue>
-          <attvalue for="cargo" value="FONOAUDIOLOGO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="6529850.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="FLAVIANA PALMEIRA DE ARAUJO GADELHA"></attvalue>
+          <attvalue for="Salary" value="4549.935"></attvalue>
+          <attvalue for="Role" value="FONOAUDIOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-241.93457" y="-83.79611"></viz:position>
@@ -1004,12 +1004,12 @@
       </node>
       <node id="20455879400" label="GERALDO ARNUAD DE ASSIS JUNIOR">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="25800.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="GERALDO ARNUAD DE ASSIS JUNIOR"></attvalue>
-          <attvalue for="salario" value="3841.9163"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="25800.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="GERALDO ARNUAD DE ASSIS JUNIOR"></attvalue>
+          <attvalue for="Salary" value="3841.9163"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="932.41876" y="-211.6963"></viz:position>
@@ -1017,12 +1017,12 @@
       </node>
       <node id="88464563434" label="ANTONIO FERNANDES DE OLIVEIRA FILHO">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="220900.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ANTONIO FERNANDES DE OLIVEIRA FILHO"></attvalue>
-          <attvalue for="salario" value="14129.0"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="220900.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ANTONIO FERNANDES DE OLIVEIRA FILHO"></attvalue>
+          <attvalue for="Salary" value="14129.0"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="158.8324" y="31.101612"></viz:position>
@@ -1030,12 +1030,12 @@
       </node>
       <node id="5062517486" label="SHENIA DUARTE DE FARIAS RAMALHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="7700.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="SHENIA DUARTE DE FARIAS RAMALHO"></attvalue>
-          <attvalue for="salario" value="1346.1848"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO SEAS"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="7700.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="SHENIA DUARTE DE FARIAS RAMALHO"></attvalue>
+          <attvalue for="Salary" value="1346.1848"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO SEAS"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-708.6683" y="555.5488"></viz:position>
@@ -1043,7 +1043,7 @@
       </node>
       <node id="601050" label="Fundo Municipal de Saúde de Campina Grande">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Campina Grande"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Campina Grande"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="103.55869" y="284.43558"></viz:position>
@@ -1051,12 +1051,12 @@
       </node>
       <node id="42196469491" label="ADERLANE MAIA RODRIGUES CORDEIRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="101082.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ADERLANE MAIA RODRIGUES CORDEIRO"></attvalue>
-          <attvalue for="salario" value="1803.4254"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO ANS-606.1"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="101082.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ADERLANE MAIA RODRIGUES CORDEIRO"></attvalue>
+          <attvalue for="Salary" value="1803.4254"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO ANS-606.1"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-41.03939" y="-556.4968"></viz:position>
@@ -1064,12 +1064,12 @@
       </node>
       <node id="2470559480" label="FABRICIO SANTOS TIBURCIO                                    ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="14400.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="FABRICIO SANTOS TIBURCIO                                    "></attvalue>
-          <attvalue for="salario" value="2793.22"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="14400.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="FABRICIO SANTOS TIBURCIO                                    "></attvalue>
+          <attvalue for="Salary" value="2793.22"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-35.345833" y="-542.89087"></viz:position>
@@ -1077,12 +1077,12 @@
       </node>
       <node id="20289162491" label="JOAO AURILIO RODRIGUES ESTRELA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="283200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JOAO AURILIO RODRIGUES ESTRELA"></attvalue>
-          <attvalue for="salario" value="1712.8436"></attvalue>
-          <attvalue for="cargo" value="MEDICO PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="283200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JOAO AURILIO RODRIGUES ESTRELA"></attvalue>
+          <attvalue for="Salary" value="1712.8436"></attvalue>
+          <attvalue for="Role" value="MEDICO PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-541.7283" y="857.42145"></viz:position>
@@ -1090,12 +1090,12 @@
       </node>
       <node id="75940850430" label="LUCIANA MARIA BARBOSA CARNEIRO SOARES">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="229975.5"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="LUCIANA MARIA BARBOSA CARNEIRO SOARES"></attvalue>
-          <attvalue for="salario" value="5868.5566"></attvalue>
-          <attvalue for="cargo" value="MEDICO CARDIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="229975.5"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="LUCIANA MARIA BARBOSA CARNEIRO SOARES"></attvalue>
+          <attvalue for="Salary" value="5868.5566"></attvalue>
+          <attvalue for="Role" value="MEDICO CARDIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="151.17264" y="141.31595"></viz:position>
@@ -1103,12 +1103,12 @@
       </node>
       <node id="1135281408" label="LENIRA GABRIELA DE AZEVEDO MAYER">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="631259.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="LENIRA GABRIELA DE AZEVEDO MAYER"></attvalue>
-          <attvalue for="salario" value="3027.0156"></attvalue>
-          <attvalue for="cargo" value="FONOAUDIOLOGO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="631259.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="LENIRA GABRIELA DE AZEVEDO MAYER"></attvalue>
+          <attvalue for="Salary" value="3027.0156"></attvalue>
+          <attvalue for="Role" value="FONOAUDIOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="930.8815" y="150.23126"></viz:position>
@@ -1116,12 +1116,12 @@
       </node>
       <node id="972273409" label="IGLY JANINE DO EGITO ALMEIDA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="503655.22"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="IGLY JANINE DO EGITO ALMEIDA"></attvalue>
-          <attvalue for="salario" value="3272.9055"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="503655.22"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="IGLY JANINE DO EGITO ALMEIDA"></attvalue>
+          <attvalue for="Salary" value="3272.9055"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-713.5438" y="583.92816"></viz:position>
@@ -1129,12 +1129,12 @@
       </node>
       <node id="4936351490" label="ANNE LARISSA DAVI LEMOS">
         <attvalues>
-          <attvalue for="n_cargos" value="6"></attvalue>
-          <attvalue for="total_recebido_empresas" value="120000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ANNE LARISSA DAVI LEMOS"></attvalue>
-          <attvalue for="salario" value="18658.348"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="6"></attvalue>
+          <attvalue for="amount_received_by_companies" value="120000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ANNE LARISSA DAVI LEMOS"></attvalue>
+          <attvalue for="Salary" value="18658.348"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="130.97606" y="-68.86082"></viz:position>
@@ -1142,12 +1142,12 @@
       </node>
       <node id="26097052715" label="RICARDO VILAR WANDERLEY NOBREGA">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1334002.2"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="RICARDO VILAR WANDERLEY NOBREGA"></attvalue>
-          <attvalue for="salario" value="2362.1804"></attvalue>
-          <attvalue for="cargo" value="MEDICO CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1334002.2"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="RICARDO VILAR WANDERLEY NOBREGA"></attvalue>
+          <attvalue for="Salary" value="2362.1804"></attvalue>
+          <attvalue for="Role" value="MEDICO CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="40.923527" y="144.25044"></viz:position>
@@ -1155,12 +1155,12 @@
       </node>
       <node id="848923405" label="CAROLINA BANDEIRA DOMICIANO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="7388361.5"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="CAROLINA BANDEIRA DOMICIANO"></attvalue>
-          <attvalue for="salario" value="12126.533"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="7388361.5"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="CAROLINA BANDEIRA DOMICIANO"></attvalue>
+          <attvalue for="Salary" value="12126.533"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-520.07935" y="1112.7778"></viz:position>
@@ -1168,12 +1168,12 @@
       </node>
       <node id="64944476434" label="KARLA JONES ANTUNES ROCHA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="94500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="KARLA JONES ANTUNES ROCHA"></attvalue>
-          <attvalue for="salario" value="10912.904"></attvalue>
-          <attvalue for="cargo" value="MEDICO (A) RADIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="94500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="KARLA JONES ANTUNES ROCHA"></attvalue>
+          <attvalue for="Salary" value="10912.904"></attvalue>
+          <attvalue for="Role" value="MEDICO (A) RADIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="330.33566" y="1175.2582"></viz:position>
@@ -1181,12 +1181,12 @@
       </node>
       <node id="63874504468" label="CRISTIAN CYRO BEZERRA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="980570.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="CRISTIAN CYRO BEZERRA"></attvalue>
-          <attvalue for="salario" value="8035.7334"></attvalue>
-          <attvalue for="cargo" value="MEDICO OFTALMOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="980570.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="CRISTIAN CYRO BEZERRA"></attvalue>
+          <attvalue for="Salary" value="8035.7334"></attvalue>
+          <attvalue for="Role" value="MEDICO OFTALMOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="205.95505" y="78.89754"></viz:position>
@@ -1194,12 +1194,12 @@
       </node>
       <node id="3621000470" label="ANA CAROLINA DO VALLE DORNELAS">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="13147.64"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA CAROLINA DO VALLE DORNELAS"></attvalue>
-          <attvalue for="salario" value="4012.0503"></attvalue>
-          <attvalue for="cargo" value="FONOAUDIOLOGO PSF B"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="13147.64"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA CAROLINA DO VALLE DORNELAS"></attvalue>
+          <attvalue for="Salary" value="4012.0503"></attvalue>
+          <attvalue for="Role" value="FONOAUDIOLOGO PSF B"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-725.01154" y="566.75476"></viz:position>
@@ -1207,12 +1207,12 @@
       </node>
       <node id="66348510425" label="KAYO TEMISTOCLES DE AQUINO LIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="67500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="KAYO TEMISTOCLES DE AQUINO LIRA"></attvalue>
-          <attvalue for="salario" value="7814.2993"></attvalue>
-          <attvalue for="cargo" value="MEDICO OTORINOLARINGOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="67500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="KAYO TEMISTOCLES DE AQUINO LIRA"></attvalue>
+          <attvalue for="Salary" value="7814.2993"></attvalue>
+          <attvalue for="Role" value="MEDICO OTORINOLARINGOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="185.73863" y="106.65915"></viz:position>
@@ -1220,12 +1220,12 @@
       </node>
       <node id="550280472" label="JOSE RAMOS REINALDO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="137200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JOSE RAMOS REINALDO"></attvalue>
-          <attvalue for="salario" value="4763.991"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="137200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JOSE RAMOS REINALDO"></attvalue>
+          <attvalue for="Salary" value="4763.991"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="668.04034" y="384.57825"></viz:position>
@@ -1233,12 +1233,12 @@
       </node>
       <node id="1976713498" label="ANA CLAUDIA PESSOA TORRES">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="360000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA CLAUDIA PESSOA TORRES"></attvalue>
-          <attvalue for="salario" value="1415.612"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="360000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA CLAUDIA PESSOA TORRES"></attvalue>
+          <attvalue for="Salary" value="1415.612"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="76.06642" y="-602.1251"></viz:position>
@@ -1246,12 +1246,12 @@
       </node>
       <node id="4594099483" label="TATIANA CARNEIRO DA CUNHA ALMEIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="128160.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="TATIANA CARNEIRO DA CUNHA ALMEIRA"></attvalue>
-          <attvalue for="salario" value="8234.718"></attvalue>
-          <attvalue for="cargo" value="MEDICO OTORRINOLARINGOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="128160.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="TATIANA CARNEIRO DA CUNHA ALMEIRA"></attvalue>
+          <attvalue for="Salary" value="8234.718"></attvalue>
+          <attvalue for="Role" value="MEDICO OTORRINOLARINGOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="11.641458" y="-599.1149"></viz:position>
@@ -1259,12 +1259,12 @@
       </node>
       <node id="4983173404" label="FRANCISCO FERNANDES DE OLIVEIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="269400.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="FRANCISCO FERNANDES DE OLIVEIRA"></attvalue>
-          <attvalue for="salario" value="11398.587"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="269400.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="FRANCISCO FERNANDES DE OLIVEIRA"></attvalue>
+          <attvalue for="Salary" value="11398.587"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-190.44313" y="-63.969345"></viz:position>
@@ -1272,12 +1272,12 @@
       </node>
       <node id="4738055453" label="FABIANO BRANDRAO MELQUIADES DE ARAUJO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="505576.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="FABIANO BRANDRAO MELQUIADES DE ARAUJO"></attvalue>
-          <attvalue for="salario" value="8169.47"></attvalue>
-          <attvalue for="cargo" value="MÉDICO OFTALMOLOGISTA                             "></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="505576.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="FABIANO BRANDRAO MELQUIADES DE ARAUJO"></attvalue>
+          <attvalue for="Salary" value="8169.47"></attvalue>
+          <attvalue for="Role" value="MÉDICO OFTALMOLOGISTA                             "></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-48.22845" y="-20.83316"></viz:position>
@@ -1285,12 +1285,12 @@
       </node>
       <node id="21939179491" label="BERNADETE DE LOURDES CORDEIRO DOS SANTOS">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="97799.14"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="BERNADETE DE LOURDES CORDEIRO DOS SANTOS"></attvalue>
-          <attvalue for="salario" value="2376.909"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="97799.14"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="BERNADETE DE LOURDES CORDEIRO DOS SANTOS"></attvalue>
+          <attvalue for="Salary" value="2376.909"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-337.07092" y="656.84796"></viz:position>
@@ -1298,12 +1298,12 @@
       </node>
       <node id="90821408" label="JARISMAR GONCALVES MELO II">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="617480.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="JARISMAR GONCALVES MELO II"></attvalue>
-          <attvalue for="salario" value="7896.946"></attvalue>
-          <attvalue for="cargo" value="MEDICO PSF"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="617480.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="JARISMAR GONCALVES MELO II"></attvalue>
+          <attvalue for="Salary" value="7896.946"></attvalue>
+          <attvalue for="Role" value="MEDICO PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="940.88135" y="-266.72592"></viz:position>
@@ -1311,7 +1311,7 @@
       </node>
       <node id="201008" label="Prefeitura Municipal de Alhandra">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Alhandra"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Alhandra"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1079.7574" y="-236.14151"></viz:position>
@@ -1319,7 +1319,7 @@
       </node>
       <node id="201123" label="Prefeitura Municipal de Monteiro">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Monteiro"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Monteiro"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="234.63336" y="91.068985"></viz:position>
@@ -1327,12 +1327,12 @@
       </node>
       <node id="91819547434" label="ANA CLAUDIA ANDRADE LUCENA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="7000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA CLAUDIA ANDRADE LUCENA"></attvalue>
-          <attvalue for="salario" value="4652.875"></attvalue>
-          <attvalue for="cargo" value="MEDICO II"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="7000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA CLAUDIA ANDRADE LUCENA"></attvalue>
+          <attvalue for="Salary" value="4652.875"></attvalue>
+          <attvalue for="Role" value="MEDICO II"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="112.467316" y="304.9878"></viz:position>
@@ -1340,12 +1340,12 @@
       </node>
       <node id="20579527468" label="JOAB DE SOUSA SALES">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="2573080.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="JOAB DE SOUSA SALES"></attvalue>
-          <attvalue for="salario" value="12306.993"></attvalue>
-          <attvalue for="cargo" value="MÉDICO PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="2573080.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="JOAB DE SOUSA SALES"></attvalue>
+          <attvalue for="Salary" value="12306.993"></attvalue>
+          <attvalue for="Role" value="MÉDICO PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="66.52386" y="-574.4794"></viz:position>
@@ -1353,7 +1353,7 @@
       </node>
       <node id="201005" label="Prefeitura Municipal de Alagoinha">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Alagoinha"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Alagoinha"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="993.8416" y="470.2273"></viz:position>
@@ -1361,7 +1361,7 @@
       </node>
       <node id="610095" label="Fundo Municipal de Saúde de João Pessoa">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de João Pessoa"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de João Pessoa"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-55.869045" y="1090.0808"></viz:position>
@@ -1369,12 +1369,12 @@
       </node>
       <node id="11242116400" label="OZIAS ARRUDA DE ASSIS NETO">
         <attvalues>
-          <attvalue for="n_cargos" value="5"></attvalue>
-          <attvalue for="total_recebido_empresas" value="476745.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="OZIAS ARRUDA DE ASSIS NETO"></attvalue>
-          <attvalue for="salario" value="9192.125"></attvalue>
-          <attvalue for="cargo" value="MEDICO RADIOLOGISTA   CONTRATO"></attvalue>
+          <attvalue for="n_roles" value="5"></attvalue>
+          <attvalue for="amount_received_by_companies" value="476745.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="OZIAS ARRUDA DE ASSIS NETO"></attvalue>
+          <attvalue for="Salary" value="9192.125"></attvalue>
+          <attvalue for="Role" value="MEDICO RADIOLOGISTA   CONTRATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="13.984998" y="-8.400051"></viz:position>
@@ -1382,12 +1382,12 @@
       </node>
       <node id="7420429448" label="RODRIGO FREIRE DUTRA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="16200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="RODRIGO FREIRE DUTRA"></attvalue>
-          <attvalue for="salario" value="4864.0376"></attvalue>
-          <attvalue for="cargo" value="MEDICO - CLINICO GERAL"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="16200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="RODRIGO FREIRE DUTRA"></attvalue>
+          <attvalue for="Salary" value="4864.0376"></attvalue>
+          <attvalue for="Role" value="MEDICO - CLINICO GERAL"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="861.8477" y="355.84833"></viz:position>
@@ -1395,7 +1395,7 @@
       </node>
       <node id="201010" label="Prefeitura Municipal de Aparecida">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Aparecida"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Aparecida"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="950.81274" y="-272.4365"></viz:position>
@@ -1403,7 +1403,7 @@
       </node>
       <node id="201011" label="Prefeitura Municipal de Araçagi">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Araçagi"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Araçagi"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1271.8263" y="-292.30603"></viz:position>
@@ -1411,12 +1411,12 @@
       </node>
       <node id="8164376884" label="FREDERICO SCABELO NETO">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="566250.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="FREDERICO SCABELO NETO"></attvalue>
-          <attvalue for="salario" value="6411.199"></attvalue>
-          <attvalue for="cargo" value="MEDICO MASTOLOGISTA                               "></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="566250.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="FREDERICO SCABELO NETO"></attvalue>
+          <attvalue for="Salary" value="6411.199"></attvalue>
+          <attvalue for="Role" value="MEDICO MASTOLOGISTA                               "></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-54.22571" y="-37.591988"></viz:position>
@@ -1424,7 +1424,7 @@
       </node>
       <node id="201013" label="Prefeitura Municipal de Araruna">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Araruna"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Araruna"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1220.1272" y="237.25856"></viz:position>
@@ -1432,7 +1432,7 @@
       </node>
       <node id="201014" label="Prefeitura Municipal de Areia">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Areia"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Areia"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1183.3544" y="-8.55798"></viz:position>
@@ -1440,12 +1440,12 @@
       </node>
       <node id="2186353466" label="TIAGO ANTONIO FERNANDES">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="44300.4"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="TIAGO ANTONIO FERNANDES"></attvalue>
-          <attvalue for="salario" value="1987.24"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="44300.4"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="TIAGO ANTONIO FERNANDES"></attvalue>
+          <attvalue for="Salary" value="1987.24"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-160.52571" y="-47.6057"></viz:position>
@@ -1453,7 +1453,7 @@
       </node>
       <node id="201019" label="Prefeitura Municipal de Baía da Traição">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Baía da Traição"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Baía da Traição"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-312.55826" y="482.76337"></viz:position>
@@ -1461,7 +1461,7 @@
       </node>
       <node id="201020" label="Prefeitura Municipal de Bananeiras">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Bananeiras"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Bananeiras"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-25.611069" y="-556.7079"></viz:position>
@@ -1469,12 +1469,12 @@
       </node>
       <node id="2442394448" label="PAULO NEIDE MELO FRAGOSO">
         <attvalues>
-          <attvalue for="n_cargos" value="5"></attvalue>
-          <attvalue for="total_recebido_empresas" value="3127256.5"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="PAULO NEIDE MELO FRAGOSO"></attvalue>
-          <attvalue for="salario" value="14145.6455"></attvalue>
-          <attvalue for="cargo" value="MEDICO PSF"></attvalue>
+          <attvalue for="n_roles" value="5"></attvalue>
+          <attvalue for="amount_received_by_companies" value="3127256.5"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="PAULO NEIDE MELO FRAGOSO"></attvalue>
+          <attvalue for="Salary" value="14145.6455"></attvalue>
+          <attvalue for="Role" value="MEDICO PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="24.041143" y="-64.87703"></viz:position>
@@ -1482,12 +1482,12 @@
       </node>
       <node id="6482629440" label="LUIZ ANTONIO MEIRA ACCIOLY">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="37880.6"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="LUIZ ANTONIO MEIRA ACCIOLY"></attvalue>
-          <attvalue for="salario" value="4834.2656"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="37880.6"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="LUIZ ANTONIO MEIRA ACCIOLY"></attvalue>
+          <attvalue for="Salary" value="4834.2656"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1070.8832" y="395.8268"></viz:position>
@@ -1495,12 +1495,12 @@
       </node>
       <node id="3908228417" label="GIAN FRANCISCO DE MACEDO ALMEIDA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="66360.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="GIAN FRANCISCO DE MACEDO ALMEIDA"></attvalue>
-          <attvalue for="salario" value="5915.422"></attvalue>
-          <attvalue for="cargo" value="MEDICO CLINICO GERAL"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="66360.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="GIAN FRANCISCO DE MACEDO ALMEIDA"></attvalue>
+          <attvalue for="Salary" value="5915.422"></attvalue>
+          <attvalue for="Role" value="MEDICO CLINICO GERAL"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="13.896283" y="127.35011"></viz:position>
@@ -1508,12 +1508,12 @@
       </node>
       <node id="87304775491" label="ESTEVAM LUIZ DE SOUZA JUNIOR">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1.0945507E7"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ESTEVAM LUIZ DE SOUZA JUNIOR"></attvalue>
-          <attvalue for="salario" value="9863.3125"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1.0945507E7"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ESTEVAM LUIZ DE SOUZA JUNIOR"></attvalue>
+          <attvalue for="Salary" value="9863.3125"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-31.681831" y="-626.3223"></viz:position>
@@ -1521,7 +1521,7 @@
       </node>
       <node id="201028" label="Prefeitura Municipal de Bernardino Batista">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Bernardino Batista"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Bernardino Batista"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="320.37955" y="836.2249"></viz:position>
@@ -1529,7 +1529,7 @@
       </node>
       <node id="201032" label="Prefeitura Municipal de Bom Sucesso">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Bom Sucesso"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Bom Sucesso"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="7.691893" y="-47.828053"></viz:position>
@@ -1537,7 +1537,7 @@
       </node>
       <node id="201033" label="Prefeitura Municipal de Bonito de Santa Fé">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Bonito de Santa Fé"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Bonito de Santa Fé"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1450.9324" y="-789.3887"></viz:position>
@@ -1545,7 +1545,7 @@
       </node>
       <node id="201034" label="Prefeitura Municipal de Boqueirão">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Boqueirão"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Boqueirão"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="17.730629" y="114.00746"></viz:position>
@@ -1553,7 +1553,7 @@
       </node>
       <node id="201036" label="Prefeitura Municipal de Brejo do Cruz">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Brejo do Cruz"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Brejo do Cruz"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="862.1023" y="345.61194"></viz:position>
@@ -1561,7 +1561,7 @@
       </node>
       <node id="201040" label="Prefeitura Municipal de Cabedelo">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Cabedelo"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Cabedelo"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-710.8966" y="569.74243"></viz:position>
@@ -1569,12 +1569,12 @@
       </node>
       <node id="9011354451" label="LEONARDO GUILHERME CABRAL PAIVA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="76500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="LEONARDO GUILHERME CABRAL PAIVA"></attvalue>
-          <attvalue for="salario" value="9269.327"></attvalue>
-          <attvalue for="cargo" value="MEDICO - PSF - CONTRATO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="76500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="LEONARDO GUILHERME CABRAL PAIVA"></attvalue>
+          <attvalue for="Salary" value="9269.327"></attvalue>
+          <attvalue for="Role" value="MEDICO - PSF - CONTRATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-765.08496" y="212.45197"></viz:position>
@@ -1582,7 +1582,7 @@
       </node>
       <node id="201046" label="Prefeitura Municipal de Cajazeiras">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Cajazeiras"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Cajazeiras"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="61.949142" y="-599.93616"></viz:position>
@@ -1590,7 +1590,7 @@
       </node>
       <node id="201047" label="Prefeitura Municipal de Cajazeirinhas">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Cajazeirinhas"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Cajazeirinhas"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="19.14542" y="-75.980804"></viz:position>
@@ -1598,7 +1598,7 @@
       </node>
       <node id="201048" label="Prefeitura Municipal de Caldas Brandão">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Caldas Brandão"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Caldas Brandão"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="8.820992" y="-713.2179"></viz:position>
@@ -1606,7 +1606,7 @@
       </node>
       <node id="201051" label="Prefeitura Municipal de Tacima">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Tacima"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Tacima"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="132.0209" y="-716.1783"></viz:position>
@@ -1614,12 +1614,12 @@
       </node>
       <node id="6707271482" label="LUZINALDO MARINHO DOS SANTOS JUNIOR">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="827496.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="LUZINALDO MARINHO DOS SANTOS JUNIOR"></attvalue>
-          <attvalue for="salario" value="3873.3904"></attvalue>
-          <attvalue for="cargo" value="MÉDICO PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="827496.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="LUZINALDO MARINHO DOS SANTOS JUNIOR"></attvalue>
+          <attvalue for="Salary" value="3873.3904"></attvalue>
+          <attvalue for="Role" value="MÉDICO PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-625.03687" y="344.98624"></viz:position>
@@ -1627,12 +1627,12 @@
       </node>
       <node id="8551600478" label="MARIA ANGELA DUQUE DE MENDONCA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="563500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="MARIA ANGELA DUQUE DE MENDONCA"></attvalue>
-          <attvalue for="salario" value="1665.6417"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="563500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="MARIA ANGELA DUQUE DE MENDONCA"></attvalue>
+          <attvalue for="Salary" value="1665.6417"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-53.07578" y="-641.8462"></viz:position>
@@ -1640,7 +1640,7 @@
       </node>
       <node id="201055" label="Prefeitura Municipal de Casserengue">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Casserengue"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Casserengue"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="225.52188" y="-746.66705"></viz:position>
@@ -1648,12 +1648,12 @@
       </node>
       <node id="20512325472" label="KELSON ALBUQUERQUE ARAUJO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="55100.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="KELSON ALBUQUERQUE ARAUJO"></attvalue>
-          <attvalue for="salario" value="400.0"></attvalue>
-          <attvalue for="cargo" value="MEDICO 20H"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="55100.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="KELSON ALBUQUERQUE ARAUJO"></attvalue>
+          <attvalue for="Salary" value="400.0"></attvalue>
+          <attvalue for="Role" value="MEDICO 20H"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-66.829124" y="1099.4576"></viz:position>
@@ -1661,12 +1661,12 @@
       </node>
       <node id="3450928481" label="Cristiano Trajano de Oliveira">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="107610.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="Cristiano Trajano de Oliveira"></attvalue>
-          <attvalue for="salario" value="11205.205"></attvalue>
-          <attvalue for="cargo" value="MEDICO PRODUTIVIDADE"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="107610.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="Cristiano Trajano de Oliveira"></attvalue>
+          <attvalue for="Salary" value="11205.205"></attvalue>
+          <attvalue for="Role" value="MEDICO PRODUTIVIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="3.2617705" y="79.26506"></viz:position>
@@ -1674,12 +1674,12 @@
       </node>
       <node id="35730480482" label="ARUANA NEVES SALVADOR DE ALCANTARA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="20059.2"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ARUANA NEVES SALVADOR DE ALCANTARA"></attvalue>
-          <attvalue for="salario" value="6525.35"></attvalue>
-          <attvalue for="cargo" value="MEDICO (CONTRATO)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="20059.2"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ARUANA NEVES SALVADOR DE ALCANTARA"></attvalue>
+          <attvalue for="Salary" value="6525.35"></attvalue>
+          <attvalue for="Role" value="MEDICO (CONTRATO)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1213.2782" y="244.93034"></viz:position>
@@ -1687,7 +1687,7 @@
       </node>
       <node id="201059" label="Prefeitura Municipal de Conceição">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Conceição"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Conceição"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="320.38297" y="1181.084"></viz:position>
@@ -1695,12 +1695,12 @@
       </node>
       <node id="95289240420" label="ALVARO VITORINO DE PONTES JUNIOR">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="109500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ALVARO VITORINO DE PONTES JUNIOR"></attvalue>
-          <attvalue for="salario" value="4485.233"></attvalue>
-          <attvalue for="cargo" value="MEDICO OTORRINOLARINGOLOGIA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="109500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ALVARO VITORINO DE PONTES JUNIOR"></attvalue>
+          <attvalue for="Salary" value="4485.233"></attvalue>
+          <attvalue for="Role" value="MEDICO OTORRINOLARINGOLOGIA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-49.3883" y="-734.92395"></viz:position>
@@ -1708,12 +1708,12 @@
       </node>
       <node id="780981499" label="MARCELLI CARTAXO NEVES">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1.067103E7"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="MARCELLI CARTAXO NEVES"></attvalue>
-          <attvalue for="salario" value="9402.236"></attvalue>
-          <attvalue for="cargo" value="Medico contratado"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1.067103E7"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="MARCELLI CARTAXO NEVES"></attvalue>
+          <attvalue for="Salary" value="9402.236"></attvalue>
+          <attvalue for="Role" value="Medico contratado"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-218.30263" y="-20.7338"></viz:position>
@@ -1721,12 +1721,12 @@
       </node>
       <node id="2709911400" label="CLAUDIA SARMENTO GADELHA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="44300.4"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="CLAUDIA SARMENTO GADELHA"></attvalue>
-          <attvalue for="salario" value="6342.4253"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="44300.4"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="CLAUDIA SARMENTO GADELHA"></attvalue>
+          <attvalue for="Salary" value="6342.4253"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-170.58954" y="-25.786198"></viz:position>
@@ -1734,7 +1734,7 @@
       </node>
       <node id="601211" label="Fundo Municipal de Saúde de Sousa">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Sousa"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Sousa"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-180.75168" y="-44.719894"></viz:position>
@@ -1742,12 +1742,12 @@
       </node>
       <node id="4341358448" label="VALKIRIA CACIANA RODRIGUES">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="13350.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="VALKIRIA CACIANA RODRIGUES"></attvalue>
-          <attvalue for="salario" value="2526.3083"></attvalue>
-          <attvalue for="cargo" value="PSICOPEDAGOGO(A)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="13350.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="VALKIRIA CACIANA RODRIGUES"></attvalue>
+          <attvalue for="Salary" value="2526.3083"></attvalue>
+          <attvalue for="Role" value="PSICOPEDAGOGO(A)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-621.52185" y="8.606285"></viz:position>
@@ -1755,12 +1755,12 @@
       </node>
       <node id="5947928434" label="TEMISTOCLES DE ALMEIDA RIBEIRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1940587.5"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="TEMISTOCLES DE ALMEIDA RIBEIRO"></attvalue>
-          <attvalue for="salario" value="769.8709"></attvalue>
-          <attvalue for="cargo" value="MEDICO 20H"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1940587.5"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="TEMISTOCLES DE ALMEIDA RIBEIRO"></attvalue>
+          <attvalue for="Salary" value="769.8709"></attvalue>
+          <attvalue for="Role" value="MEDICO 20H"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-45.042454" y="1080.4591"></viz:position>
@@ -1768,7 +1768,7 @@
       </node>
       <node id="201078" label="Prefeitura Municipal de Esperança">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Esperança"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Esperança"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="98.5999" y="210.17076"></viz:position>
@@ -1776,12 +1776,12 @@
       </node>
       <node id="27109945855" label="ANA LUISA RAMALHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="292600.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA LUISA RAMALHO"></attvalue>
-          <attvalue for="salario" value="7709.852"></attvalue>
-          <attvalue for="cargo" value="MEDICO PEDIATRA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="292600.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA LUISA RAMALHO"></attvalue>
+          <attvalue for="Salary" value="7709.852"></attvalue>
+          <attvalue for="Role" value="MEDICO PEDIATRA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="172.00423" y="76.166824"></viz:position>
@@ -1789,12 +1789,12 @@
       </node>
       <node id="73873284472" label="MARCUS ALEXANDRE SODRE">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="42500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="MARCUS ALEXANDRE SODRE"></attvalue>
-          <attvalue for="salario" value="4022.76"></attvalue>
-          <attvalue for="cargo" value="MEDICO OTORINOLARINGOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="42500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="MARCUS ALEXANDRE SODRE"></attvalue>
+          <attvalue for="Salary" value="4022.76"></attvalue>
+          <attvalue for="Role" value="MEDICO OTORINOLARINGOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="193.48378" y="67.39973"></viz:position>
@@ -1802,12 +1802,12 @@
       </node>
       <node id="65917979472" label="ANA BEATRIZ MELO GADELHA                                    ">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="370778.44"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ANA BEATRIZ MELO GADELHA                                    "></attvalue>
-          <attvalue for="salario" value="6674.621"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="370778.44"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ANA BEATRIZ MELO GADELHA                                    "></attvalue>
+          <attvalue for="Salary" value="6674.621"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-172.26175" y="-65.102104"></viz:position>
@@ -1815,7 +1815,7 @@
       </node>
       <node id="201082" label="Prefeitura Municipal de Guarabira">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Guarabira"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Guarabira"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="12.971159" y="-611.9991"></viz:position>
@@ -1823,12 +1823,12 @@
       </node>
       <node id="8640793468" label="JOSE PASSOS DA COSTA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1918792.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JOSE PASSOS DA COSTA"></attvalue>
-          <attvalue for="salario" value="6589.61"></attvalue>
-          <attvalue for="cargo" value="MEDICO CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1918792.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JOSE PASSOS DA COSTA"></attvalue>
+          <attvalue for="Salary" value="6589.61"></attvalue>
+          <attvalue for="Role" value="MEDICO CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="78.43205" y="224.50574"></viz:position>
@@ -1836,12 +1836,12 @@
       </node>
       <node id="990658430" label="JOSÉ ADEZILTON DANTAS PALITOT">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="85350.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="JOSÉ ADEZILTON DANTAS PALITOT"></attvalue>
-          <attvalue for="salario" value="2710.5952"></attvalue>
-          <attvalue for="cargo" value="MÉDICO FISIOTERAPEUTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="85350.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="JOSÉ ADEZILTON DANTAS PALITOT"></attvalue>
+          <attvalue for="Salary" value="2710.5952"></attvalue>
+          <attvalue for="Role" value="MÉDICO FISIOTERAPEUTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1450.8406" y="-799.5911"></viz:position>
@@ -1849,7 +1849,7 @@
       </node>
       <node id="201088" label="Prefeitura Municipal de Ingá">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Ingá"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Ingá"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="127.40969" y="-675.12494"></viz:position>
@@ -1857,7 +1857,7 @@
       </node>
       <node id="201090" label="Prefeitura Municipal de Itaporanga">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Itaporanga"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Itaporanga"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-790.1397" y="-359.2162"></viz:position>
@@ -1865,12 +1865,12 @@
       </node>
       <node id="4727655403" label="PAMELA SONNALY GARRIDO DE LACERDA PEREIRA CAVALCANTE">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="139200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="PAMELA SONNALY GARRIDO DE LACERDA PEREIRA CAVALCANTE"></attvalue>
-          <attvalue for="salario" value="25440.71"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="139200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="PAMELA SONNALY GARRIDO DE LACERDA PEREIRA CAVALCANTE"></attvalue>
+          <attvalue for="Salary" value="25440.71"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="119.838394" y="-27.902767"></viz:position>
@@ -1878,7 +1878,7 @@
       </node>
       <node id="201094" label="Prefeitura Municipal de Jericó">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Jericó"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Jericó"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-6.7367797" y="49.841076"></viz:position>
@@ -1886,7 +1886,7 @@
       </node>
       <node id="201095" label="Prefeitura Municipal de João Pessoa">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de João Pessoa"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de João Pessoa"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-29.83585" y="-643.4869"></viz:position>
@@ -1894,12 +1894,12 @@
       </node>
       <node id="2398702472" label="JOAO PESSOA DE SOUZA">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1794000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="JOAO PESSOA DE SOUZA"></attvalue>
-          <attvalue for="salario" value="8190.6626"></attvalue>
-          <attvalue for="cargo" value="MEDICO - RADIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1794000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="JOAO PESSOA DE SOUZA"></attvalue>
+          <attvalue for="Salary" value="8190.6626"></attvalue>
+          <attvalue for="Role" value="MEDICO - RADIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="79.64089" y="-580.10706"></viz:position>
@@ -1907,12 +1907,12 @@
       </node>
       <node id="17698391434" label="ETIENE DE FATIMA GALVAO                                     ">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="136000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ETIENE DE FATIMA GALVAO                                     "></attvalue>
-          <attvalue for="salario" value="2182.42"></attvalue>
-          <attvalue for="cargo" value="MEDICO GINECOLOGISTA                              "></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="136000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ETIENE DE FATIMA GALVAO                                     "></attvalue>
+          <attvalue for="Salary" value="2182.42"></attvalue>
+          <attvalue for="Role" value="MEDICO GINECOLOGISTA                              "></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="144.45506" y="-721.9979"></viz:position>
@@ -1920,12 +1920,12 @@
       </node>
       <node id="37278380430" label="MARCIO CARTAXO QUEIROGA LOPES                               ">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="365800.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="MARCIO CARTAXO QUEIROGA LOPES                               "></attvalue>
-          <attvalue for="salario" value="6927.2334"></attvalue>
-          <attvalue for="cargo" value="MEDICO(A)"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="365800.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="MARCIO CARTAXO QUEIROGA LOPES                               "></attvalue>
+          <attvalue for="Salary" value="6927.2334"></attvalue>
+          <attvalue for="Role" value="MEDICO(A)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="120.048134" y="-683.96423"></viz:position>
@@ -1933,12 +1933,12 @@
       </node>
       <node id="32423683472" label="ROMULO ANTONIO PIRES LEITE">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="196180.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="ROMULO ANTONIO PIRES LEITE"></attvalue>
-          <attvalue for="salario" value="9263.455"></attvalue>
-          <attvalue for="cargo" value="MEDICO(A) PSIQUATRA"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="196180.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="ROMULO ANTONIO PIRES LEITE"></attvalue>
+          <attvalue for="Salary" value="9263.455"></attvalue>
+          <attvalue for="Role" value="MEDICO(A) PSIQUATRA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="13.09702" y="-702.31067"></viz:position>
@@ -1946,7 +1946,7 @@
       </node>
       <node id="201106" label="Prefeitura Municipal de Logradouro">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Logradouro"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Logradouro"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1112.497" y="631.69806"></viz:position>
@@ -1954,12 +1954,12 @@
       </node>
       <node id="7686980499" label="AYLINNE MARIA BEZERRA DE ARAUJO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="51000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="AYLINNE MARIA BEZERRA DE ARAUJO"></attvalue>
-          <attvalue for="salario" value="930.1237"></attvalue>
-          <attvalue for="cargo" value="ATENDENTE DE CONSULTORIO MEDICO E PARAMEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="51000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="AYLINNE MARIA BEZERRA DE ARAUJO"></attvalue>
+          <attvalue for="Salary" value="930.1237"></attvalue>
+          <attvalue for="Role" value="ATENDENTE DE CONSULTORIO MEDICO E PARAMEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="88.72585" y="-59.235954"></viz:position>
@@ -1967,7 +1967,7 @@
       </node>
       <node id="601075" label="Fundo Municipal de Saúde de Dona Inês">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Dona Inês"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Dona Inês"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="165.00601" y="-716.15704"></viz:position>
@@ -1975,7 +1975,7 @@
       </node>
       <node id="201112" label="Prefeitura Municipal de Marcação">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Marcação"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Marcação"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="921.4078" y="144.76898"></viz:position>
@@ -1983,12 +1983,12 @@
       </node>
       <node id="6894233497" label="AMANDA DE SOUSA FERNANDES">
         <attvalues>
-          <attvalue for="n_cargos" value="5"></attvalue>
-          <attvalue for="total_recebido_empresas" value="180100.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="AMANDA DE SOUSA FERNANDES"></attvalue>
-          <attvalue for="salario" value="17146.223"></attvalue>
-          <attvalue for="cargo" value="MEDICO (A) - PSF - CONTRATATO"></attvalue>
+          <attvalue for="n_roles" value="5"></attvalue>
+          <attvalue for="amount_received_by_companies" value="180100.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="AMANDA DE SOUSA FERNANDES"></attvalue>
+          <attvalue for="Salary" value="17146.223"></attvalue>
+          <attvalue for="Role" value="MEDICO (A) - PSF - CONTRATATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="319.53442" y="824.75104"></viz:position>
@@ -1996,12 +1996,12 @@
       </node>
       <node id="50394541472" label="CARLOS FABRICIO DE SOUSA SANTOS">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="6500.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="CARLOS FABRICIO DE SOUSA SANTOS"></attvalue>
-          <attvalue for="salario" value="6012.967"></attvalue>
-          <attvalue for="cargo" value="MEDICO - ORTOPEDISTA CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="6500.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="CARLOS FABRICIO DE SOUSA SANTOS"></attvalue>
+          <attvalue for="Salary" value="6012.967"></attvalue>
+          <attvalue for="Role" value="MEDICO - ORTOPEDISTA CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="81.56019" y="-543.4092"></viz:position>
@@ -2009,12 +2009,12 @@
       </node>
       <node id="14131587491" label="AUDELUCIA MARIA COSTA DE MORAIS">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="146150.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="AUDELUCIA MARIA COSTA DE MORAIS"></attvalue>
-          <attvalue for="salario" value="2830.226"></attvalue>
-          <attvalue for="cargo" value="MÉDICO REUMATOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="146150.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="AUDELUCIA MARIA COSTA DE MORAIS"></attvalue>
+          <attvalue for="Salary" value="2830.226"></attvalue>
+          <attvalue for="Role" value="MÉDICO REUMATOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-16.682564" y="-712.70746"></viz:position>
@@ -2022,12 +2022,12 @@
       </node>
       <node id="44138156453" label="CARLOS ROBERTO DE S OLIVEIRA">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="8288850.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="CARLOS ROBERTO DE S OLIVEIRA"></attvalue>
-          <attvalue for="salario" value="10035.744"></attvalue>
-          <attvalue for="cargo" value="MEDICO ANESTESIOLOGISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="8288850.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="CARLOS ROBERTO DE S OLIVEIRA"></attvalue>
+          <attvalue for="Salary" value="10035.744"></attvalue>
+          <attvalue for="Role" value="MEDICO ANESTESIOLOGISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="114.306946" y="259.3272"></viz:position>
@@ -2035,7 +2035,7 @@
       </node>
       <node id="201126" label="Prefeitura Municipal de Nazarezinho">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Nazarezinho"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Nazarezinho"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="934.96924" y="-252.39989"></viz:position>
@@ -2043,12 +2043,12 @@
       </node>
       <node id="990975401" label="EDUART BRITO DE CALDAS">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1217.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="EDUART BRITO DE CALDAS"></attvalue>
-          <attvalue for="salario" value="2223.738"></attvalue>
-          <attvalue for="cargo" value="MEDICO VETERINARIO - SNS 702"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1217.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="EDUART BRITO DE CALDAS"></attvalue>
+          <attvalue for="Salary" value="2223.738"></attvalue>
+          <attvalue for="Role" value="MEDICO VETERINARIO - SNS 702"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="114.01956" y="-69.47477"></viz:position>
@@ -2056,7 +2056,7 @@
       </node>
       <node id="601003" label="Fundo Municipal de Saúde de Alagoa Grande">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Alagoa Grande"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Alagoa Grande"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="90.89222" y="-678.45233"></viz:position>
@@ -2064,12 +2064,12 @@
       </node>
       <node id="93120150444" label="JOAO BOSCO GADELHA DE OLIVEIRA FILH">
         <attvalues>
-          <attvalue for="n_cargos" value="3"></attvalue>
-          <attvalue for="total_recebido_empresas" value="486000.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="JOAO BOSCO GADELHA DE OLIVEIRA FILH"></attvalue>
-          <attvalue for="salario" value="7632.7544"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="3"></attvalue>
+          <attvalue for="amount_received_by_companies" value="486000.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="JOAO BOSCO GADELHA DE OLIVEIRA FILH"></attvalue>
+          <attvalue for="Salary" value="7632.7544"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="928.9377" y="-237.95206"></viz:position>
@@ -2077,7 +2077,7 @@
       </node>
       <node id="601005" label="Fundo Municipal de Saúde de Alagoinha">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Alagoinha"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Alagoinha"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="8.999413" y="-685.2538"></viz:position>
@@ -2085,7 +2085,7 @@
       </node>
       <node id="201135" label="Prefeitura Municipal de Patos">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Patos"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Patos"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1060.0287" y="409.9778"></viz:position>
@@ -2093,12 +2093,12 @@
       </node>
       <node id="1191979440" label="GUSTAVO COELHO NAVARRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="491300.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="GUSTAVO COELHO NAVARRO"></attvalue>
-          <attvalue for="salario" value="5048.647"></attvalue>
-          <attvalue for="cargo" value="MEDICO - CONTRATO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="491300.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="GUSTAVO COELHO NAVARRO"></attvalue>
+          <attvalue for="Salary" value="5048.647"></attvalue>
+          <attvalue for="Role" value="MEDICO - CONTRATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-828.35004" y="-365.49277"></viz:position>
@@ -2106,7 +2106,7 @@
       </node>
       <node id="201138" label="Prefeitura Municipal de Pedra Lavrada">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Pedra Lavrada"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Pedra Lavrada"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-339.56985" y="668.1078"></viz:position>
@@ -2114,7 +2114,7 @@
       </node>
       <node id="201139" label="Prefeitura Municipal de Pedras de Fogo">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Pedras de Fogo"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Pedras de Fogo"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-901.6412" y="68.67091"></viz:position>
@@ -2122,7 +2122,7 @@
       </node>
       <node id="201140" label="Prefeitura Municipal de Pedro Régis">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Pedro Régis"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Pedro Régis"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-625.54584" y="18.074379"></viz:position>
@@ -2130,7 +2130,7 @@
       </node>
       <node id="201141" label="Prefeitura Municipal de Piancó">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Piancó"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Piancó"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="108.51572" y="-50.40213"></viz:position>
@@ -2138,7 +2138,7 @@
       </node>
       <node id="201142" label="Prefeitura Municipal de Picuí">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Picuí"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Picuí"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-513.6094" y="1104.7808"></viz:position>
@@ -2146,7 +2146,7 @@
       </node>
       <node id="201143" label="Prefeitura Municipal de Pilar">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Pilar"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Pilar"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-677.97833" y="-635.1307"></viz:position>
@@ -2154,7 +2154,7 @@
       </node>
       <node id="201149" label="Prefeitura Municipal de Poço Dantas">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Poço Dantas"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Poço Dantas"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="307.89737" y="817.33356"></viz:position>
@@ -2162,7 +2162,7 @@
       </node>
       <node id="201151" label="Prefeitura Municipal de Pombal">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Pombal"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Pombal"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="20.480831" y="-29.717587"></viz:position>
@@ -2170,7 +2170,7 @@
       </node>
       <node id="201152" label="Prefeitura Municipal de Prata">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Prata"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Prata"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="669.4468" y="372.8564"></viz:position>
@@ -2178,7 +2178,7 @@
       </node>
       <node id="601025" label="Fundo Municipal de Saúde de Bayeux">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Bayeux"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Bayeux"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-544.2536" y="847.45435"></viz:position>
@@ -2186,7 +2186,7 @@
       </node>
       <node id="601026" label="Fundo Municipal de Saúde de Belém">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Belém"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Belém"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="213.67436" y="-753.4111"></viz:position>
@@ -2194,12 +2194,12 @@
       </node>
       <node id="4022782404" label="ALCIGLEY ROCHA BARBOSA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="61050.11"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ALCIGLEY ROCHA BARBOSA"></attvalue>
-          <attvalue for="salario" value="1064.5714"></attvalue>
-          <attvalue for="cargo" value="BIOMEDICO (A)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="61050.11"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ALCIGLEY ROCHA BARBOSA"></attvalue>
+          <attvalue for="Salary" value="1064.5714"></attvalue>
+          <attvalue for="Role" value="BIOMEDICO (A)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="3.0457747" y="114.49046"></viz:position>
@@ -2207,7 +2207,7 @@
       </node>
       <node id="201157" label="Prefeitura Municipal de Remígio">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Remígio"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Remígio"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="672.4898" y="344.73154"></viz:position>
@@ -2215,12 +2215,12 @@
       </node>
       <node id="29518270406" label="FRANCISCO DE ASSIS M. JARDELINO">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="55263.4"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="FRANCISCO DE ASSIS M. JARDELINO"></attvalue>
-          <attvalue for="salario" value="1689.5"></attvalue>
-          <attvalue for="cargo" value="MEDICO VETERINARIO"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="55263.4"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="FRANCISCO DE ASSIS M. JARDELINO"></attvalue>
+          <attvalue for="Salary" value="1689.5"></attvalue>
+          <attvalue for="Role" value="MEDICO VETERINARIO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1179.9497" y="-18.25963"></viz:position>
@@ -2228,12 +2228,12 @@
       </node>
       <node id="99921685449" label="ROGERIO WANDERLEY PINTO BRANDAO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="309580.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="ROGERIO WANDERLEY PINTO BRANDAO"></attvalue>
-          <attvalue for="salario" value="7320.4795"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="309580.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="ROGERIO WANDERLEY PINTO BRANDAO"></attvalue>
+          <attvalue for="Salary" value="7320.4795"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="94.88669" y="-77.3426"></viz:position>
@@ -2241,7 +2241,7 @@
       </node>
       <node id="201162" label="Prefeitura Municipal de Riacho dos Cavalos">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Riacho dos Cavalos"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Riacho dos Cavalos"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-9.180117" y="-56.607475"></viz:position>
@@ -2249,12 +2249,12 @@
       </node>
       <node id="2578814414" label="RENATO CABRAL DE OLIVEIRA NETO">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="292600.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="RENATO CABRAL DE OLIVEIRA NETO"></attvalue>
-          <attvalue for="salario" value="12296.03"></attvalue>
-          <attvalue for="cargo" value="MEDICO ULTRASONOGRAFISTA"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="292600.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="RENATO CABRAL DE OLIVEIRA NETO"></attvalue>
+          <attvalue for="Salary" value="12296.03"></attvalue>
+          <attvalue for="Role" value="MEDICO ULTRASONOGRAFISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="202.83214" y="100.402176"></viz:position>
@@ -2262,7 +2262,7 @@
       </node>
       <node id="201170" label="Prefeitura Municipal de Santa Luzia">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Santa Luzia"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Santa Luzia"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="152.22173" y="-97.07393"></viz:position>
@@ -2270,12 +2270,12 @@
       </node>
       <node id="3572905427" label="Alana Cristiny Oliveira Cesar">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1339182.9"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="Alana Cristiny Oliveira Cesar"></attvalue>
-          <attvalue for="salario" value="2272.5815"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1339182.9"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="Alana Cristiny Oliveira Cesar"></attvalue>
+          <attvalue for="Salary" value="2272.5815"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1066.6108" y="426.5353"></viz:position>
@@ -2283,7 +2283,7 @@
       </node>
       <node id="601046" label="Fundo Municipal de Saúde de Cajazeiras">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Cajazeiras"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Cajazeiras"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="82.17012" y="-559.4635"></viz:position>
@@ -2291,7 +2291,7 @@
       </node>
       <node id="601047" label="Fundo Municipal de Saúde de Cajazeirinhas">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Cajazeirinhas"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Cajazeirinhas"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="33.36956" y="-72.42939"></viz:position>
@@ -2299,12 +2299,12 @@
       </node>
       <node id="73405400" label="WILANE WANI DE SOUSA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="98688.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="WILANE WANI DE SOUSA"></attvalue>
-          <attvalue for="salario" value="3414.5"></attvalue>
-          <attvalue for="cargo" value="MEDICO(A)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="98688.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="WILANE WANI DE SOUSA"></attvalue>
+          <attvalue for="Salary" value="3414.5"></attvalue>
+          <attvalue for="Role" value="MEDICO(A)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="951.7066" y="162.83562"></viz:position>
@@ -2312,12 +2312,12 @@
       </node>
       <node id="5667179482" label="TAHISA NUNES CAVALCANTI BELMIRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="4179.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="TAHISA NUNES CAVALCANTI BELMIRO"></attvalue>
-          <attvalue for="salario" value="3445.9219"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO ESCOLAR"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="4179.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="TAHISA NUNES CAVALCANTI BELMIRO"></attvalue>
+          <attvalue for="Salary" value="3445.9219"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO ESCOLAR"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-45.70869" y="-630.3373"></viz:position>
@@ -2325,12 +2325,12 @@
       </node>
       <node id="56872810459" label="LUCIO FLAVIO ARAUJO COSTA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="637200.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="LUCIO FLAVIO ARAUJO COSTA"></attvalue>
-          <attvalue for="salario" value="5418.0825"></attvalue>
-          <attvalue for="cargo" value="MEDICO PLANTONISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="637200.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="LUCIO FLAVIO ARAUJO COSTA"></attvalue>
+          <attvalue for="Salary" value="5418.0825"></attvalue>
+          <attvalue for="Role" value="MEDICO PLANTONISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="118.43993" y="224.0696"></viz:position>
@@ -2338,7 +2338,7 @@
       </node>
       <node id="601052" label="Fundo Municipal de Saúde de Capim">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Capim"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Capim"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-775.0995" y="214.70859"></viz:position>
@@ -2346,7 +2346,7 @@
       </node>
       <node id="201181" label="Prefeitura Municipal de São Francisco">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São Francisco"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São Francisco"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="917.37885" y="-237.1737"></viz:position>
@@ -2354,7 +2354,7 @@
       </node>
       <node id="201183" label="Prefeitura Municipal de São João do Rio do Peixe">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São João do Rio do Peixe"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São João do Rio do Peixe"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="330.4216" y="821.0727"></viz:position>
@@ -2362,7 +2362,7 @@
       </node>
       <node id="201185" label="Prefeitura Municipal de São José da Lagoa Tapada">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São José da Lagoa Tapada"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São José da Lagoa Tapada"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="931.2214" y="-223.55699"></viz:position>
@@ -2370,7 +2370,7 @@
       </node>
       <node id="201186" label="Prefeitura Municipal de São José de Caiana">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São José de Caiana"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São José de Caiana"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-236.00925" y="919.41736"></viz:position>
@@ -2378,12 +2378,12 @@
       </node>
       <node id="1442152419" label="AZIF DAVI LEMOS">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="120000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="AZIF DAVI LEMOS"></attvalue>
-          <attvalue for="salario" value="3228.6875"></attvalue>
-          <attvalue for="cargo" value="MEDICO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="120000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="AZIF DAVI LEMOS"></attvalue>
+          <attvalue for="Salary" value="3228.6875"></attvalue>
+          <attvalue for="Role" value="MEDICO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="112.2098" y="-85.22904"></viz:position>
@@ -2391,12 +2391,12 @@
       </node>
       <node id="20378130404" label="RICARDO JOSE RAMOS LOUREIRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="7844700.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="RICARDO JOSE RAMOS LOUREIRO"></attvalue>
-          <attvalue for="salario" value="5610.4365"></attvalue>
-          <attvalue for="cargo" value="MEDICO II"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="7844700.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="RICARDO JOSE RAMOS LOUREIRO"></attvalue>
+          <attvalue for="Salary" value="5610.4365"></attvalue>
+          <attvalue for="Role" value="MEDICO II"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="122.16872" y="292.81067"></viz:position>
@@ -2404,12 +2404,12 @@
       </node>
       <node id="14520710120" label="MARIA ANGELA DE ANDRADE GUIMARAES SILVA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="214500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="MARIA ANGELA DE ANDRADE GUIMARAES SILVA"></attvalue>
-          <attvalue for="salario" value="1744.0"></attvalue>
-          <attvalue for="cargo" value="PSICOLOGO-CTR"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="214500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="MARIA ANGELA DE ANDRADE GUIMARAES SILVA"></attvalue>
+          <attvalue for="Salary" value="1744.0"></attvalue>
+          <attvalue for="Role" value="PSICOLOGO-CTR"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-1081.4078" y="-246.29579"></viz:position>
@@ -2417,12 +2417,12 @@
       </node>
       <node id="87369575420" label="EDMAR AQUINO DINIZ">
         <attvalues>
-          <attvalue for="n_cargos" value="4"></attvalue>
-          <attvalue for="total_recebido_empresas" value="40400.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="EDMAR AQUINO DINIZ"></attvalue>
-          <attvalue for="salario" value="7914.38"></attvalue>
-          <attvalue for="cargo" value="MÉDICO -  PSF"></attvalue>
+          <attvalue for="n_roles" value="4"></attvalue>
+          <attvalue for="amount_received_by_companies" value="40400.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="EDMAR AQUINO DINIZ"></attvalue>
+          <attvalue for="Salary" value="7914.38"></attvalue>
+          <attvalue for="Role" value="MÉDICO -  PSF"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-13.847076" y="-67.982544"></viz:position>
@@ -2430,7 +2430,7 @@
       </node>
       <node id="201194" label="Prefeitura Municipal de São José dos Ramos">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São José dos Ramos"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São José dos Ramos"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-635.2473" y="344.2416"></viz:position>
@@ -2438,7 +2438,7 @@
       </node>
       <node id="201195" label="Prefeitura Municipal de São Mamede">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de São Mamede"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de São Mamede"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-342.76416" y="947.19446"></viz:position>
@@ -2446,12 +2446,12 @@
       </node>
       <node id="41453123415" label="CLAUDIA JUREMA FURTADO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="70883.65"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="CLAUDIA JUREMA FURTADO"></attvalue>
-          <attvalue for="salario" value="1000.0"></attvalue>
-          <attvalue for="cargo" value="MÉDICO (A)"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="70883.65"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="CLAUDIA JUREMA FURTADO"></attvalue>
+          <attvalue for="Salary" value="1000.0"></attvalue>
+          <attvalue for="Role" value="MÉDICO (A)"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="1121.2905" y="637.0354"></viz:position>
@@ -2459,12 +2459,12 @@
       </node>
       <node id="819093491" label="GILVAN AMORIN NAVARRO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="491300.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="GILVAN AMORIN NAVARRO"></attvalue>
-          <attvalue for="salario" value="5161.821"></attvalue>
-          <attvalue for="cargo" value="MEDICO - CONTRATO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="491300.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="GILVAN AMORIN NAVARRO"></attvalue>
+          <attvalue for="Salary" value="5161.821"></attvalue>
+          <attvalue for="Role" value="MEDICO - CONTRATO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-820.4741" y="-383.3415"></viz:position>
@@ -2472,12 +2472,12 @@
       </node>
       <node id="9903356404" label="WELLINGTON GUEDES DE CARVALHO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="109500.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="WELLINGTON GUEDES DE CARVALHO"></attvalue>
-          <attvalue for="salario" value="9182.179"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALISTA"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="109500.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="WELLINGTON GUEDES DE CARVALHO"></attvalue>
+          <attvalue for="Salary" value="9182.179"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALISTA"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-20.543118" y="-542.15643"></viz:position>
@@ -2485,7 +2485,7 @@
       </node>
       <node id="601001" label="Fundo Municipal de Saúde de Água Branca">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Água Branca"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Água Branca"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-898.01013" y="-106.896736"></viz:position>
@@ -2493,7 +2493,7 @@
       </node>
       <node id="201208" label="Prefeitura Municipal de Solânea">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Solânea"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Solânea"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="112.52044" y="-715.298"></viz:position>
@@ -2501,7 +2501,7 @@
       </node>
       <node id="601082" label="Fundo Municipal de Saúde de Guarabira">
         <attvalues>
-          <attvalue for="nome" value="Fundo Municipal de Saúde de Guarabira"></attvalue>
+          <attvalue for="name" value="Fundo Municipal de Saúde de Guarabira"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="45.93759" y="-649.3957"></viz:position>
@@ -2509,12 +2509,12 @@
       </node>
       <node id="16237994491" label="GILBERTO GOMES SARMENTO">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1072250.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="GILBERTO GOMES SARMENTO"></attvalue>
-          <attvalue for="salario" value="1807.4"></attvalue>
-          <attvalue for="cargo" value="MEDICO ESPECIALIDADE"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1072250.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="GILBERTO GOMES SARMENTO"></attvalue>
+          <attvalue for="Salary" value="1807.4"></attvalue>
+          <attvalue for="Role" value="MEDICO ESPECIALIDADE"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-189.91273" y="-25.2021"></viz:position>
@@ -2522,12 +2522,12 @@
       </node>
       <node id="2064958460" label="CRISTIANE CHAVES PESSOA">
         <attvalues>
-          <attvalue for="n_cargos" value="1"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1434000.0"></attvalue>
-          <attvalue for="multi_cargos" value="false"></attvalue>
-          <attvalue for="nome" value="CRISTIANE CHAVES PESSOA"></attvalue>
-          <attvalue for="salario" value="3483.884"></attvalue>
-          <attvalue for="cargo" value="MEDICO CONTRATADO"></attvalue>
+          <attvalue for="n_roles" value="1"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1434000.0"></attvalue>
+          <attvalue for="multi_roles" value="false"></attvalue>
+          <attvalue for="name" value="CRISTIANE CHAVES PESSOA"></attvalue>
+          <attvalue for="Salary" value="3483.884"></attvalue>
+          <attvalue for="Role" value="MEDICO CONTRATADO"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="95.650505" y="-550.7273"></viz:position>
@@ -2535,7 +2535,7 @@
       </node>
       <node id="201213" label="Prefeitura Municipal de Taperoá">
         <attvalues>
-          <attvalue for="nome" value="Prefeitura Municipal de Taperoá"></attvalue>
+          <attvalue for="name" value="Prefeitura Municipal de Taperoá"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="-35.70098" y="-731.5867"></viz:position>
@@ -2543,12 +2543,12 @@
       </node>
       <node id="11234628449" label="OTONI JOSE DE MEDEIROS">
         <attvalues>
-          <attvalue for="n_cargos" value="2"></attvalue>
-          <attvalue for="total_recebido_empresas" value="1337200.0"></attvalue>
-          <attvalue for="multi_cargos" value="true"></attvalue>
-          <attvalue for="nome" value="OTONI JOSE DE MEDEIROS"></attvalue>
-          <attvalue for="salario" value="1819.5314"></attvalue>
-          <attvalue for="cargo" value="Medico Contratado"></attvalue>
+          <attvalue for="n_roles" value="2"></attvalue>
+          <attvalue for="amount_received_by_companies" value="1337200.0"></attvalue>
+          <attvalue for="multi_roles" value="true"></attvalue>
+          <attvalue for="name" value="OTONI JOSE DE MEDEIROS"></attvalue>
+          <attvalue for="Salary" value="1819.5314"></attvalue>
+          <attvalue for="Role" value="Medico Contratado"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
         <viz:position x="663.34344" y="1011.07764"></viz:position>
