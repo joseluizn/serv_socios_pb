@@ -10,7 +10,7 @@
       <attribute id="person" title="person" type="boolean"></attribute>
       <attribute id="n_cbos" title="n_cbos" type="double"></attribute>
       <attribute id="n_bids" title="n_bids" type="double"></attribute>
-      <attribute id="total_amount_contracts" title="total_amount_contracts" type="double"></attribute>
+      <attribute id="total_amount_contracts" title="total_amount_contracts" type="integer"></attribute>
       <attribute id="salary_rais" title="salary_rais" type="double"></attribute>
       <attribute id="de_cbo" title="de_cbo" type="string"></attribute>
       <attribute id="municipality" title="municipality" type="string"></attribute>
